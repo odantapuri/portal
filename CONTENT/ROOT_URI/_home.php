@@ -32,7 +32,7 @@
           <div class="container">
             <div class="carousel-content animated fadeInUp">
               <h2>Best Coaching Classes</h2>
-              <p>We believe its not only quality education, but factors such as individual attention, student collaboration, and intricate assessments are vital ingredients for the development of a student. We at Odantapuri have colloborated with various technology partners to replicate such an environment.</p>
+              <p>We believe its not only quality education, but factors such as individual attention, student collaboration, and intricate assessments are vital ingredients for the development of a student. We at Odantapuri have collaborated with various technology partners to replicate such an environment.</p>
               <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
             </div>
           </div>
@@ -62,16 +62,16 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3>We are exclusively dedicated to <span>West Bengal</span> students (ICSE, CBSE and West Bengal Board)</h3>
+          <div class="col-lg-12 text-center text-lg-left">
+            <h3>We are exclusively dedicated to <span>West Bengal</span> students (ICSE, CBSE and WBBSE)</h3>
             <p> <b>Coaching for Classes 9th and 10th</b></p>
             Physical Science, Life Science, Mathematics and English
             <p> <b>Coaching for Classes 11th and 12th</b></p>
             <tab>Physics, Chemistry, Biology, Mathematics and English
           </div>
-          <div class="col-lg-3 cta-btn-container text-center">
+          <!--<div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Book a seat</a>
-          </div>
+          </div>-->
         </div>
         
 
@@ -128,89 +128,45 @@
 
       </div>
     </section>
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-        <h2><strong>What Our Students And Their Parents Say</strong></h2>
+
+  <div class="modal fade" id="joinFreeClassesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="joinFreeClassesModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Soon your question would be answered by other community mambers and teachers.help to answer any unanswered question to help community to learn and grow.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="testimonial-item mt-4 mt-lg-0">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Soon your question would be answered by other community mambers and teachers.help to answer any unanswered question to help community to learn and grow.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Soon your question would be answered by other community mambers and teachers.help to answer any unanswered question to help community to learn and grow.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Soon your question would be answered by other community mambers and teachers.help to answer any unanswered question to help community to learn and grow.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Soon your question would be answered by other community mambers and teachers.help to answer any unanswered question to help community to learn and grow.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
-              <h3>Emily Harison</h3>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Soon your question would be answered by other community mambers and teachers.help to answer any unanswered question to help community to learn and grow.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
+      <div class="modal-body">
+      <form>
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input id="name" type="text" class="form-control" name="name" placeholder="Please enter your Name">
         </div>
-
+        <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input id="email" type="text" class="form-control" name="email" placeholder="Please enter your Email Address">
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+          <input id="contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
+        </div>
+        <select class="browser-default custom-select custom-select-lg mb-3">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </form>
       </div>
-    </section>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
 
   </main><!-- End #main
