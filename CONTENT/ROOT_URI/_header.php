@@ -71,7 +71,7 @@
          <!-- <li><a href="#">BOARDS</a></li> -->
           <li><a href="teachers">TEACHER</a></li>
           <li><a href="#">ONLINE CLASS</a></li>
-          <li><a href="#joinFreeClassesModal" data-toggle="modal" class="btn" style="color: #fff; background-color: #fd5c28; padding-left: 20px; padding-right: 20px;">START CLASSES FOR FREE</a></li>
+          <li><a href="#joinFreeClassesModal" data-toggle="modal" class="btn" style="color: #fff; background-color: #fd5c28; padding-left: 20px; padding-right: 20px;">JOIN US FOR FREE</a></li>
           <!-- <li><a href="services.html">Services</a></li> 
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="testimonials.html">Testimonials</a></li>
