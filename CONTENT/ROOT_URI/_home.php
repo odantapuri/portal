@@ -64,7 +64,7 @@
         <div class="row">
           <div class="col-lg-12 text-center text-lg-left">
             <h3>We are exclusively dedicated to <span>West Bengal</span> students (ICSE, CBSE and WBBSE)</h3>
-            <p> <b>Coaching for Classes 9th and 10th</b></p>
+            <p> <b>Coacrom Grade 9 to 12</b></p>
             Physical Science, Life Science, Mathematics and English
             <p> <b>Coaching for Classes 11th and 12th</b></p>
             <tab>Physics, Chemistry, Biology, Mathematics and English
@@ -90,21 +90,21 @@
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="icofont-computer"></i></div>
               <h4 class="title"><a href="#">Request</a></h4>
-              <p class="description">Request for live online class for any grade from 5th to 10th for Indian International Schools in India</p>
+              <p class="description">Request for live online classes from Grade 9 to 12 of ICSE, CBSE, and WBBSE </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
               <h4 class="title"><a href="#">Learn</a></h4>
-              <p class="description">Join your scheduled live class from anywhere and start learning</p>
+              <p class="description">Join our scheduled classes from the convenience of your Study Room</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="icofont-earth"></i></div>
-              <h4 class="title"><a href="">Give Feedback</a></h4>
-              <p class="description">Review how your class went. Is it too fast or slow or anything to improve that help you learn better Tutors</p>
+              <h4 class="title"><a href="">Assessment</a></h4>
+              <p class="description">Our teachers would perform an intricate assessment of your understanding and provide regular feedbacks.</p>
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="joinFreeClassesModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="joinFreeClassesModalLabel">Enter details about yourself</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -152,17 +152,28 @@
           <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
           <input id="contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
         </div>
-        <select class="browser-default custom-select custom-select-lg mb-3">
-          <option selected>Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+        <select class="custom-select">
+          <option selected>Select Class</option>
+          <option value="1">IX</option>
+          <option value="2">X</option>
+          <option value="3">XI</option>
+          <option value="3">XII</option>
+        </select>
+        <select class="custom-select">
+          <option selected>Select Subject</option>
+          <option value="1">Mathematics</option>
+          <option value="2">Physics</option>
+          <option value="3">Chemistry</option>
+          <option value="4">Life Science</option>
+          <option value="5">Physical Science</option>
+          <option value="6">English</option>
+          <option value="7">Biology</option>
         </select>
       </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>
