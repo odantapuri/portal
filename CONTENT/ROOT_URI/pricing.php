@@ -18,17 +18,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12 headingteaching" style="font-size:28px; line-height: 1.6;">
-        At LurningHub we understand how expensive Indian International Schools are in Singapore and how critical quality education is.
-        We have worked hard to keep LurningHub services as affordable we possibly could without compromising the quality.
-      </div>
-    </div>
-  </div>
-</section>
-<section class="headingrow">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 headingteaching" style="font-size:28px; line-height: 1.6;">
-      We believe quality education should be easily accessible to the entire population irrespective of one's financial background. We at Odantapuri are committed towards imparting world class education at an affordable price. On this note, we would encourage talented students from the financially weaker segments to write back to us for further discounts.
+        We believe quality education should be easily accessible to the entire population irrespective of one's financial background. We at Odantapuri are committed towards imparting world class education at an affordable price. On this note, we would encourage talented students from the financially weaker segments to write back to us for further discounts.
       </div>
     </div>
   </div>

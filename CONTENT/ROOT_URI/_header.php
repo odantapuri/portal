@@ -71,26 +71,23 @@
         </div>
         <div class="modal-body">
           <form>
-            <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-              <input id="name" type="text" class="form-control" name="name" placeholder="Please enter your Name">
+            <div class="form-group">
+              <input id="inputName" type="text" class="form-control" name="name" placeholder="Please enter your Name">
             </div>
-            <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-              <input id="email" type="text" class="form-control" name="email" placeholder="Please enter your Email Address">
+            <div class="form-group">
+              <input id="inputEmail" type="text" class="form-control" name="email" placeholder="Please enter your Email Address">
             </div>
-            <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-              <input id="contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
+            <div class="form-group">
+              <input id="inputContact" contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
             </div>
-            <select class="custom-select">
+            <select class="custom-select form-group" id="inputClass">
               <option selected>Select Class</option>
               <option value="1">IX</option>
               <option value="2">X</option>
               <option value="3">XI</option>
               <option value="3">XII</option>
             </select>
-            <select class="custom-select">
+            <select class="custom-select" id="inputSubject">
               <option selected>Select Subject</option>
               <option value="1">Mathematics</option>
               <option value="2">Physics</option>
@@ -103,8 +100,8 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Submit</button>
+          <button type="button" class="btn btn-secondary" id="joinFreeClassesResetBtn">Reset</button>
+          <button type="button" class="btn btn-orange" id="joinFreeClassesSubmitBtn">Submit</button>
         </div>
       </div>
     </div>

@@ -235,7 +235,6 @@
     formInputs.class = $('#joinFreeClassesModal #inputClass').find(":selected").text().toUpperCase() === "SELECT CLASS" ? "" : $('#joinFreeClassesModal #inputClass').find(":selected").text();
     formInputs.subject = $('#joinFreeClassesModal #inputSubject').find(":selected").text().toUpperCase() === "SELECT SUBJECT" ? "" : $('#joinFreeClassesModal #inputSubject').find(":selected").text();
 
-    console.log(formInputs)
 
     resetModalForm();
   }
