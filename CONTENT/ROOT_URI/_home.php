@@ -146,56 +146,6 @@
     </div>
   </section>
 
-  <div class="modal fade" id="joinFreeClassesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="joinFreeClassesModalLabel">Enter details about yourself</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-              <input id="name" type="text" class="form-control" name="name" placeholder="Please enter your Name">
-            </div>
-            <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-              <input id="email" type="text" class="form-control" name="email" placeholder="Please enter your Email Address">
-            </div>
-            <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-              <input id="contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
-            </div>
-            <select class="custom-select">
-              <option selected>Select Class</option>
-              <option value="1">IX</option>
-              <option value="2">X</option>
-              <option value="3">XI</option>
-              <option value="3">XII</option>
-            </select>
-            <select class="custom-select">
-              <option selected>Select Subject</option>
-              <option value="1">Mathematics</option>
-              <option value="2">Physics</option>
-              <option value="3">Chemistry</option>
-              <option value="4">Life Science</option>
-              <option value="5">Physical Science</option>
-              <option value="6">English</option>
-              <option value="7">Biology</option>
-            </select>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Submit</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
   </div>
   </section>

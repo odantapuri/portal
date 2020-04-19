@@ -213,6 +213,33 @@
     }
   }
 
+  var joinFreeClassesResetBtn = $("#joinFreeClassesResetBtn");
+  var joinFreeClassesSubmitBtn = $("#joinFreeClassesSubmitBtn");
+
+  $(joinFreeClassesResetBtn).on('click', resetModalForm);
+  $(joinFreeClassesSubmitBtn).on('click', submitModalForm);
+
+  function resetModalForm() {
+    $("#joinFreeClassesModal #inputName").val('');
+    $("#joinFreeClassesModal #inputEmail").val('');
+    $("#joinFreeClassesModal #inputPhone").val('');
+    $('#joinFreeClassesModal #inputClass').find(":selected").text('Select class');
+    $('#joinFreeClassesModal #inputSubject').find(":selected").text('Select subject');
+  }
+
+  function submitModalForm() {
+    var formInputs = {};
+    formInputs.name = $("#joinFreeClassesModal #inputName").val();
+    formInputs.email = $("#joinFreeClassesModal #inputEmail").val();
+    formInputs.phone = $("#joinFreeClassesModal #inputPhone").val();
+    formInputs.class = $('#joinFreeClassesModal #inputClass').find(":selected").text().toUpperCase() === "SELECT CLASS" ? "" : $('#joinFreeClassesModal #inputClass').find(":selected").text();
+    formInputs.subject = $('#joinFreeClassesModal #inputSubject').find(":selected").text().toUpperCase() === "SELECT SUBJECT" ? "" : $('#joinFreeClassesModal #inputSubject').find(":selected").text();
+
+    console.log(formInputs)
+
+    resetModalForm();
+  }
+
   // Initi AOS
   AOS.init({
     duration: 800,
