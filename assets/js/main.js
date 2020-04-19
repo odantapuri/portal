@@ -176,25 +176,40 @@
 
   var monthlyTab = $("#monthlyTab");
   var quarterlyTab = $("#quarterlyTab");
+  var yearlyTab = $("#yearlyTab");
 
   $(monthlyTab).on('click', pricingPlans);
   $(quarterlyTab).on('click', pricingPlans);
+  $(yearlyTab).on('click', pricingPlans);
 
   function pricingPlans(e) {
     var monthlyPlan = $("#monthlyPlan");
     var quarterlyPlan = $("#quarterlyPlan");
+    var yearlyPlan = $("#yearlyPlan");
 
     if (e.target.id === "monthlyTab") { //activate monthly tab and section
       $(monthlyTab).addClass("active");
       $(monthlyPlan).addClass("active");
       $(quarterlyTab).removeClass("active");
       $(quarterlyPlan).removeClass("active");
+      $(yearlyTab).removeClass("active");
+      $(yearlyPlan).removeClass("active");
     }
-    else { //activate quarterly tab and section
+    else if (e.target.id === "quarterlyTab") { //activate quarterly tab and section
       $(monthlyTab).removeClass("active");
       $(monthlyPlan).removeClass("active");
       $(quarterlyTab).addClass("active");
       $(quarterlyPlan).addClass("active");
+      $(yearlyTab).removeClass("active");
+      $(yearlyPlan).removeClass("active");
+    }
+    else {
+      $(monthlyTab).removeClass("active");
+      $(monthlyPlan).removeClass("active");
+      $(quarterlyTab).removeClass("active");
+      $(quarterlyPlan).removeClass("active");
+      $(yearlyTab).addClass("active");
+      $(yearlyPlan).addClass("active");
     }
   }
 

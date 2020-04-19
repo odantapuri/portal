@@ -65,18 +65,19 @@
         <div class="col-lg-9 text-center" style="margin: 0 auto;">
           <h3>We are exclusively dedicated to <span>West Bengal</span> students <br><span style="font-weight: 500;">(ICSE, CBSE and West Bengal Board)</span></h3>
           <h4 style="padding-top: 20px;"><b>Coaching for Classes 9th and 10th</b></h4>
-          <div class="row" style="text-align: center;">
+          <div class="row" style="justify-content: center;">
             <div class="col-lg-3 col-md-4 subject-item">Physical Science</div>
             <div class="col-lg-3 col-md-4 subject-item">Life Science</div>
             <div class="col-lg-3 col-md-4 subject-item">Mathematics</div>
             <div class="col-lg-3 col-md-4 subject-item">English</div>
           </div>
           <h4 style="padding-top: 20px;"><b>Coaching for Classes 11th and 12th</b></h4>
-          <div class="row" style="text-align: center;">
-            <div class="col-lg-3 col-md-4 subject-item">Physics</div>
-            <div class="col-lg-3 col-md-4 subject-item">Chemistry</div>
-            <div class="col-lg-3 col-md-4 subject-item">Mathematics</div>
-            <div class="col-lg-3 col-md-4 subject-item">English</div>
+          <div class="row" style="justify-content: center;">
+            <div class="col-lg-2 col-md-4 subject-item">Physics</div>
+            <div class="col-lg-2 col-md-4 subject-item">Chemistry</div>
+            <div class="col-lg-2 col-md-4 subject-item">Mathematics</div>
+            <div class="col-lg-2 col-md-4 subject-item">Biology</div>
+            <div class="col-lg-2 col-md-4 subject-item">English</div>
           </div>
         </div>
       </div>
@@ -119,10 +120,10 @@
     </div>
   </section>
 
-  <section id="clients" class="clients">
-    <div class="container">
+  <section id="clients" class="clients" style="padding: 2px 0 40px 0;">
+    <div class="container" data-aos="fade-up">
 
-      <div class="section-title" data-aos="fade-up">
+      <div class="section-title">
         <h2><strong>Start classes for free</strong></h2>
         <p>There is a lot of confusion and concern if online classes are effective? Does the student understand what's being taught? How the tutor would know if a student is attentive in the class? and so on...
           None of these concerns are valid anymore. LurningHub is using LMS with the latest technologies that address all these issues and make learning more effective than conventional class. </p>

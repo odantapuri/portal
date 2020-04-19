@@ -1104,6 +1104,16 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.cover-pic {
+  width: 100%;
+  background-image: url(../img/pricing_cover.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
 .pricing {
   background: #f3f1f0;
 }
@@ -1209,11 +1219,11 @@ section {
 }
 
 .pricing-quotes .tab {
-  text-align: center;
+  padding-top: 20px;
 }
 
 .pricing-quotes .tab button {
-  background-color: #f3f1f0;
+  background-color: transparent;
   color: #f03c02;
   border: none;
   outline: none;
@@ -1221,7 +1231,7 @@ section {
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
-  border-radius: 0px 0px 30px 30px;
+  border-radius: 6px;
 }
 
 .pricing-quotes .tab button:hover {
@@ -1229,15 +1239,8 @@ section {
 }
 
 .pricing-quotes .tab button.active {
-  background-color: #f03c02;
+  background-color: #fd5c28;
   color: #fff;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-  border-radius: 0px 0px 30px 30px;
 }
 
 .pricing-quotes .tab-wrapper {
