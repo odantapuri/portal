@@ -27,42 +27,32 @@
         </div>
       </div>
 
-      <<<<<<< HEAD <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
-          <div class="container">
-            <div class="carousel-content animated fadeInUp">
-              <h2>Best Coaching Classes</h2>
-              <p>We believe its not only quality education, but factors such as individual attention, student collaboration, and intricate assessments are vital ingredients for the development of a student. We at Odantapuri have colloborated with various technology partners to replicate such an environment.</p>
-              <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
-              =======
-              <!-- Slide 3 -->
-              <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
-                <div class="container">
-                  <div class="carousel-content animated fadeInUp">
-                    <h2>Best Coaching Classes</h2>
-                    <p>We believe its not only quality education, but factors such as individual attention, student collaboration, and intricate assessments are vital ingredients for the development of a student. We at Odantapuri have collaborated with various technology partners to replicate such an environment.</p>
-                    <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
-                  </div>
-                  >>>>>>> master
-                </div>
-              </div>
-            </div>
-
+      <!-- Slide 3 -->
+      <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+        <div class="container">
+          <div class="carousel-content animated fadeInUp">
+            <h2>Best Coaching Classes</h2>
+            <p>We believe its not only quality education, but factors such as individual attention, student collaboration, and intricate assessments are vital ingredients for the development of a student. We at Odantapuri have collaborated with various technology partners to replicate such an environment.</p>
+            <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
           </div>
-
-          <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-
-          <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-
-          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
         </div>
+      </div>
+
+    </div>
+
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+    <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+  </div>
 </section><!-- End Hero -->
 
 <main id="main">
@@ -108,21 +98,21 @@
           <div class="icon-box" data-aos="fade-up">
             <div class="icon"><i class="icofont-computer"></i></div>
             <h4 class="title"><a href="#">Request</a></h4>
-            <p class="description">Request for live online class for any grade from 5th to 10th for Indian International Schools in India</p>
+            <p class="description">Request for live online classes from Grade 9 to 12 of any board ICSE, CBSE, and WBBSE.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
             <h4 class="title"><a href="#">Learn</a></h4>
-            <p class="description">Join your scheduled live class from anywhere and start learning</p>
+            <p class="description">Join our scheduled classes from the convenience of your Study Room</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="icofont-earth"></i></div>
-            <h4 class="title"><a href="">Give Feedback</a></h4>
-            <p class="description">Review how your class went. Is it too fast or slow or anything to improve that help you learn better Tutors</p>
+            <h4 class="title"><a href="">Assessment</a></h4>
+            <p class="description">Our teachers performs an intricate assessment of your understanding and provide regular feedbacks.</p>
           </div>
         </div>
       </div>
@@ -135,19 +125,14 @@
 
       <div class="section-title">
         <h2><strong>Start classes for free</strong></h2>
-        <p>There is a lot of confusion and concern if online classes are effective? Does the student understand what's being taught? How the tutor would know if a student is attentive in the class? and so on...
-          None of these concerns are valid anymore. LurningHub is using LMS with the latest technologies that address all these issues and make learning more effective than conventional class. </p>
+        <p>For years we have been learning within the confines of the classroom. Suddenly on online coaching, people obviously would have their own dilemma regarding the effectiveness of online learning. We at Odantapuri have devised an unqiue methodology to clear such inhibitions. We believe besides quality education, individual attention, student collaboration, and intricate assessments are vital ingredients for the development of the student.</p>
         <br>
-        <p>Don't just go by our words. Evaluate it yourself, start the class for free and pay for subscription only if you're satisfied.</p>
+        <p>Join us and experience the difference.</p>
       </div>
       <div class="cta-btn-container text-center">
         <a class="cta-btn align-middle" href="pricing">View Our Pricing plans</a>
       </div>
     </div>
-  </section>
-
-
-  </div>
   </section>
 
 </main><!-- End #main

@@ -24,6 +24,15 @@
     </div>
   </div>
 </section>
+<section class="headingrow">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 headingteaching" style="font-size:28px; line-height: 1.6;">
+      We believe quality education should be easily accessible to the entire population irrespective of one's financial background. We at Odantapuri are committed towards imparting world class education at an affordable price. On this note, we would encourage talented students from the financially weaker segments to write back to us for further discounts.
+      </div>
+    </div>
+  </div>
+</section>
 <section id="pricing" class="pricing">
   <div class="container">
 
@@ -32,24 +41,24 @@
       <div class="col-lg-4 col-md-6">
         <div class="box upper" data-aos="fade-right">
           <div class="icon"><i class="icofont-money"></i></div>
-          <h3 class="box-heading">AFFORDABLE</h3>
-          <p class="box-desc">LurningHub’s committed to provide quality online tuition at a fraction of standard tuition fee in Singapore.</p>
+          <h3 class="box-heading">TRULY AFFORDABLE</h3>
+          <p class="box-desc">Odantapuri is committed to impart quality education at an affordable cost.</p>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
         <div class="box upper" data-aos="fade-up">
           <div class="icon"><i class="icofont-dashboard"></i></div>
-          <h3 class="box-heading">FLEXIBLE</h3>
-          <p class="box-desc">We provide flexible monthly, quarterly and annual payment plans. You may choose 1 subject or multiple subjects.</p>
+          <h3 class="box-heading">FLEXIBLE PAYMENT</h3>
+          <p class="box-desc">Students have the option to choose from monthly, quarterly and annual payment plans. </p>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
         <div class="box upper" data-aos="fade-left">
           <div class="icon"><i class="icofont-safety"></i></div>
-          <h3 class="box-heading">SAFE & RELIABLE</h3>
-          <p class="box-desc">Make monthly payment with one of the safest and reliable payment gateway Paypal.</p>
+          <h3 class="box-heading">ULTIMATE EXPERIENCE</h3>
+          <p class="box-desc">Join us and be a part of ourselves and experience the difference.</p>
         </div>
       </div>
 
