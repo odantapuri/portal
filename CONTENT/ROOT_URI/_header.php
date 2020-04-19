@@ -45,7 +45,9 @@
     <div class="container d-flex">
       <div class="contact-info mr-auto">
         <i class="icofont-envelope"></i><a href="mailto:contact@example.com">hr@odantapuri.net.in</a>
-        <i class="icofont-phone"></i> +91 9593930068
+        <span font-size=14px>Odantapuri Classes </span>
+
+        <i class="icofont-whatsapp" style="border-left: 1px solid;padding-left: 10px;margin-left: 10px;"></i> +91 9593930068
       </div>
       <div class="social-links">
         <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
@@ -59,54 +61,51 @@
   <!---=============Modal ========= -->
 
   <div class="modal fade" id="joinFreeClassesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="joinFreeClassesModalLabel">Enter details about yourself</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <form>
-      <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input id="name" type="text" class="form-control" name="name" placeholder="Please enter your Name">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="joinFreeClassesModalLabel">Enter details about yourself</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-        <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input id="email" type="text" class="form-control" name="email" placeholder="Please enter your Email Address">
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <input id="inputName" type="text" class="form-control" name="name" placeholder="Please enter your Name">
+            </div>
+            <div class="form-group">
+              <input id="inputEmail" type="text" class="form-control" name="email" placeholder="Please enter your Email Address">
+            </div>
+            <div class="form-group">
+              <input id="inputContact" contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
+            </div>
+            <select class="custom-select form-group" id="inputClass">
+              <option selected>Select Class</option>
+              <option value="1">IX</option>
+              <option value="2">X</option>
+              <option value="3">XI</option>
+              <option value="3">XII</option>
+            </select>
+            <select class="custom-select" id="inputSubject">
+              <option selected>Select Subject</option>
+              <option value="1">Mathematics</option>
+              <option value="2">Physics</option>
+              <option value="3">Chemistry</option>
+              <option value="4">Life Science</option>
+              <option value="5">Physical Science</option>
+              <option value="6">English</option>
+              <option value="7">Biology</option>
+            </select>
+          </form>
         </div>
-        <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-          <input id="contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" id="joinFreeClassesResetBtn">Reset</button>
+          <button type="button" class="btn btn-orange" id="joinFreeClassesSubmitBtn">Submit</button>
         </div>
-        <select class="custom-select">
-          <option selected>Select Class</option>
-          <option value="1">IX</option>
-          <option value="2">X</option>
-          <option value="3">XI</option>
-          <option value="3">XII</option>
-        </select>
-        <select class="custom-select">
-          <option selected>Select Subject</option>
-          <option value="1">Mathematics</option>
-          <option value="2">Physics</option>
-          <option value="3">Chemistry</option>
-          <option value="4">Life Science</option>
-          <option value="5">Physical Science</option>
-          <option value="6">English</option>
-          <option value="7">Biology</option>
-        </select>
-      </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>
-</div>
 
   <!-- ======= Header ======= -->
   <header id="header">
@@ -150,6 +149,63 @@
 
         </ul>
       </nav><!-- .nav-menu -->
+
+      <!-- join classes modal -->
+
+      <div class="modal fade" id="joinFreeClassesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="joinFreeClassesModalLabel">Enter details about yourself</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="inputName" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                  <!-- <div class="icon"><i class="icofont-email"></i></div> -->
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <!-- <div class="icon"><i class="icofont-phone"></i></div> -->
+                  <input type="number" class="form-control" id="inputPhone" placeholder="Enter phone number">
+                </div>
+                <div class="form-group">
+                  <select class="custom-select" id="inputClass">
+                    <option selected>Select Class</option>
+                    <option value="1">IX</option>
+                    <option value="2">X</option>
+                    <option value="3">XI</option>
+                    <option value="3">XII</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="custom-select" id="inputSubject">
+                    <option selected>Select Subject</option>
+                    <option value="1">Mathematics</option>
+                    <option value="2">Physics</option>
+                    <option value="3">Chemistry</option>
+                    <option value="4">Life Science</option>
+                    <option value="5">Physical Science</option>
+                    <option value="6">English</option>
+                    <option value="7">Biology</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" id="joinFreeClassesResetBtn">Reset</button>
+              <button type="button" class="btn btn-orange" id="joinFreeClassesSubmitBtn">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal end -->
 
     </div>
   </header><!-- End Header -->

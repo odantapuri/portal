@@ -65,19 +65,19 @@
         <div class="col-lg-9 text-center" style="margin: 0 auto;">
           <h3>We are exclusively dedicated to <span>West Bengal</span> students <br><span style="font-weight: 500;">(ICSE, CBSE and West Bengal Board)</span></h3>
           <h4 style="padding-top: 20px;"><b>Coaching for Classes 9th and 10th</b></h4>
-          <div class="row" style="text-align: center;">
+          <div class="row" style="justify-content: center;">
             <div class="col-lg-3 col-md-4 subject-item">Physical Science</div>
             <div class="col-lg-3 col-md-4 subject-item">Life Science</div>
             <div class="col-lg-3 col-md-4 subject-item">Mathematics</div>
             <div class="col-lg-3 col-md-4 subject-item">English</div>
           </div>
           <h4 style="padding-top: 20px;"><b>Coaching for Classes 11th and 12th</b></h4>
-          <div class="row" style="text-align: center;">
-            <div class="col-lg-3 col-md-4 subject-item">Physics</div>
-            <div class="col-lg-3 col-md-4 subject-item">Chemistry</div>
-            <div class="col-lg-3 col-md-4 subject-item">Mathematics</div>
-            <div class="col-lg-3 col-md-4 subject-item">Biology</div>
-            <div class="col-lg-3 col-md-4 subject-item">English</div>
+          <div class="row" style="justify-content: center;">
+            <div class="col-lg-2 col-md-4 subject-item">Physics</div>
+            <div class="col-lg-2 col-md-4 subject-item">Chemistry</div>
+            <div class="col-lg-2 col-md-4 subject-item">Mathematics</div>
+            <div class="col-lg-2 col-md-4 subject-item">Biology</div>
+            <div class="col-lg-2 col-md-4 subject-item">English</div>
           </div>
         </div>
       </div>
@@ -120,69 +120,19 @@
     </div>
   </section>
 
-  <section id="clients" class="clients">
-    <div class="container">
+  <section id="clients" class="clients" style="padding: 2px 0 40px 0;">
+    <div class="container" data-aos="fade-up">
 
-      <div class="section-title" data-aos="fade-up">
+      <div class="section-title">
         <h2><strong>Start classes for free</strong></h2>
-        <p>For years we have been learning within the confines of the classroom. Suddenly on online coaching, people obviously would have their own dilemma regarding the effectiveness of online learning. We at Odantapuri have devised an unqiue methodology to clear such inhibitions. We believe besides quality education, individual attention, student collaboration, and intricate assessments are vital ingredients for the development of the student.<br>
+        <p>For years we have been learning within the confines of the classroom. Suddenly on online coaching, people obviously would have their own dilemma regarding the effectiveness of online learning. We at Odantapuri have devised an unqiue methodology to clear such inhibitions. We believe besides quality education, individual attention, student collaboration, and intricate assessments are vital ingredients for the development of the student.</p>
+        <br>
         <p>Join us and experience the difference.</p>
       </div>
       <div class="cta-btn-container text-center">
         <a class="cta-btn align-middle" href="pricing">View Our Pricing plans</a>
       </div>
-
     </div>
   </section>
-
-  <div class="modal fade" id="joinFreeClassesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="joinFreeClassesModalLabel">Enter details about yourself</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <form>
-      <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input id="name" type="text" class="form-control" name="name" placeholder="Please enter your Name">
-        </div>
-        <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input id="email" type="text" class="form-control" name="email" placeholder="Please enter your Email Address">
-        </div>
-        <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-          <input id="contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
-        </div>
-        <select class="custom-select">
-          <option selected>Select Class</option>
-          <option value="1">IX</option>
-          <option value="2">X</option>
-          <option value="3">XI</option>
-          <option value="3">XII</option>
-        </select>
-        <select class="custom-select">
-          <option selected>Select Subject</option>
-          <option value="1">Mathematics</option>
-          <option value="2">Physics</option>
-          <option value="3">Chemistry</option>
-          <option value="4">Life Science</option>
-          <option value="5">Physical Science</option>
-          <option value="6">English</option>
-          <option value="7">Biology</option>
-        </select>
-      </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 </main><!-- End #main

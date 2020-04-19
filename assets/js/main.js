@@ -176,26 +176,67 @@
 
   var monthlyTab = $("#monthlyTab");
   var quarterlyTab = $("#quarterlyTab");
+  var yearlyTab = $("#yearlyTab");
 
   $(monthlyTab).on('click', pricingPlans);
   $(quarterlyTab).on('click', pricingPlans);
+  $(yearlyTab).on('click', pricingPlans);
 
   function pricingPlans(e) {
     var monthlyPlan = $("#monthlyPlan");
     var quarterlyPlan = $("#quarterlyPlan");
+    var yearlyPlan = $("#yearlyPlan");
 
     if (e.target.id === "monthlyTab") { //activate monthly tab and section
       $(monthlyTab).addClass("active");
       $(monthlyPlan).addClass("active");
       $(quarterlyTab).removeClass("active");
       $(quarterlyPlan).removeClass("active");
+      $(yearlyTab).removeClass("active");
+      $(yearlyPlan).removeClass("active");
     }
-    else { //activate quarterly tab and section
+    else if (e.target.id === "quarterlyTab") { //activate quarterly tab and section
       $(monthlyTab).removeClass("active");
       $(monthlyPlan).removeClass("active");
       $(quarterlyTab).addClass("active");
       $(quarterlyPlan).addClass("active");
+      $(yearlyTab).removeClass("active");
+      $(yearlyPlan).removeClass("active");
     }
+    else {
+      $(monthlyTab).removeClass("active");
+      $(monthlyPlan).removeClass("active");
+      $(quarterlyTab).removeClass("active");
+      $(quarterlyPlan).removeClass("active");
+      $(yearlyTab).addClass("active");
+      $(yearlyPlan).addClass("active");
+    }
+  }
+
+  var joinFreeClassesResetBtn = $("#joinFreeClassesResetBtn");
+  var joinFreeClassesSubmitBtn = $("#joinFreeClassesSubmitBtn");
+
+  $(joinFreeClassesResetBtn).on('click', resetModalForm);
+  $(joinFreeClassesSubmitBtn).on('click', submitModalForm);
+
+  function resetModalForm() {
+    $("#joinFreeClassesModal #inputName").val('');
+    $("#joinFreeClassesModal #inputEmail").val('');
+    $("#joinFreeClassesModal #inputPhone").val('');
+    $('#joinFreeClassesModal #inputClass').find(":selected").text('Select class');
+    $('#joinFreeClassesModal #inputSubject').find(":selected").text('Select subject');
+  }
+
+  function submitModalForm() {
+    var formInputs = {};
+    formInputs.name = $("#joinFreeClassesModal #inputName").val();
+    formInputs.email = $("#joinFreeClassesModal #inputEmail").val();
+    formInputs.phone = $("#joinFreeClassesModal #inputPhone").val();
+    formInputs.class = $('#joinFreeClassesModal #inputClass').find(":selected").text().toUpperCase() === "SELECT CLASS" ? "" : $('#joinFreeClassesModal #inputClass').find(":selected").text();
+    formInputs.subject = $('#joinFreeClassesModal #inputSubject').find(":selected").text().toUpperCase() === "SELECT SUBJECT" ? "" : $('#joinFreeClassesModal #inputSubject').find(":selected").text();
+
+
+    resetModalForm();
   }
 
   // Initi AOS

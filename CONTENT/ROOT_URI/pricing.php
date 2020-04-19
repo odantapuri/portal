@@ -1,4 +1,4 @@
-<section id="breadcrumbs" class="breadcrumbs">
+<!-- <section id="breadcrumbs" class="breadcrumbs">
 
   <div class="container">
 
@@ -11,12 +11,14 @@
     </div>
 
   </div>
+</section> -->
+<section class="cover-pic">
 </section>
 <section class="headingrow">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12 headingteaching" style="font-size:28px; line-height: 1.6;">
-      We believe quality education should be easily accessible to the entire population irrespective of one's financial background. We at Odantapuri are committed towards imparting world class education at an affordable price. On this note, we would encourage talented students from the financially weaker segments to write back to us for further discounts.
+        We believe quality education should be easily accessible to the entire population irrespective of one's financial background. We at Odantapuri are committed towards imparting world class education at an affordable price. On this note, we would encourage talented students from the financially weaker segments to write back to us for further discounts.
       </div>
     </div>
   </div>
@@ -55,10 +57,12 @@
   </div>
 </section>
 <section id="pricing-quotes" class="pricing-quotes">
-  <div class="container">
+  <div class="container text-center" data-aos="fade-up">
+    <h1>Pricing Plans</h1>
     <div class="tab">
-      <button class="tablinks active" style="font-size:25px;" id="monthlyTab">Monthly Pricing Plans</button>
-      <button class="tablinks" style="font-size:25px;" id="quarterlyTab">Quarterly &amp; Yearly Plans</button>
+      <button class="tablinks active" style="font-size:25px;" id="monthlyTab">Monthly</button>
+      <button class="tablinks" style="font-size:25px;" id="quarterlyTab">Quarterly</button>
+      <button class="tablinks" style="font-size:25px;" id="yearlyTab">Yearly</button>
     </div>
     <p>Get 8 classes a month (2 classes per week) for each subject signed up. We courage students to choose classes 2-3 days apart so that they get time to absord what they learn. With the ample time between the classes, students will have sufficient time for self learning & complete any assignment given by the teacher.</p>
     <div class="row tab-wrapper active" id="monthlyPlan">
@@ -77,7 +81,7 @@
       <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
         <div class="box">
           <h3 class="box-heading">Advanced</h3>
-          <h4 class="box-pricing"><sup>₹</sup>600<span> / month</span></h4>
+          <h4 class="box-pricing"><sup>₹</sup>100<span> / month</span></h4>
           <p class="box-desc">This is monthly plan.</p>
           <div class="btn-wrap">
             <a href="#" class="btn-buy">Buy Now</a>
@@ -88,7 +92,7 @@
       <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
         <div class="box">
           <h3 class="box-heading">Expert</h3>
-          <h4 class="box-pricing"><sup>₹</sup>1000<span> / month</span></h4>
+          <h4 class="box-pricing"><sup>₹</sup>400<span> / month</span></h4>
           <p class="box-desc">This is monthly plan.</p>
           <div class="btn-wrap">
             <a href="#" class="btn-buy">Buy Now</a>
@@ -103,7 +107,42 @@
         <div class="box">
           <h3 class="box-heading">Free</h3>
           <h4 class="box-pricing"><sup>₹</sup>0<span> / month</span></h4>
-          <p class="box-desc">This is quarterly/yearly plan.</p>
+          <p class="box-desc">This is quarterly plan.</p>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+        <div class="box">
+          <h3 class="box-heading">Advanced</h3>
+          <h4 class="box-pricing"><sup>₹</sup>400<span> / month</span></h4>
+          <p class="box-desc">This is quarterly plan.</p>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+        <div class="box">
+          <h3 class="box-heading">Expert</h3>
+          <h4 class="box-pricing"><sup>₹</sup>800<span> / month</span></h4>
+          <p class="box-desc">This is quarterly plan.</p>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row tab-wrapper" id="yearlyPlan">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="box">
+          <h3 class="box-heading">Free</h3>
+          <h4 class="box-pricing"><sup>₹</sup>0<span> / month</span></h4>
+          <p class="box-desc">This is yearly plan.</p>
           <div class="btn-wrap">
             <a href="#" class="btn-buy">Buy Now</a>
           </div>
@@ -114,7 +153,7 @@
         <div class="box">
           <h3 class="box-heading">Advanced</h3>
           <h4 class="box-pricing"><sup>₹</sup>800<span> / month</span></h4>
-          <p class="box-desc">This is quarterly/yearly plan.</p>
+          <p class="box-desc">This is yearly plan.</p>
           <div class="btn-wrap">
             <a href="#" class="btn-buy">Buy Now</a>
           </div>
@@ -125,13 +164,14 @@
         <div class="box">
           <h3 class="box-heading">Expert</h3>
           <h4 class="box-pricing"><sup>₹</sup>1200<span> / month</span></h4>
-          <p class="box-desc">This is quarterly/yearly plan.</p>
+          <p class="box-desc">This is yearly plan.</p>
           <div class="btn-wrap">
             <a href="#" class="btn-buy">Buy Now</a>
           </div>
         </div>
       </div>
     </div>
+
 </section>
 <section id="cta-pricing" class="cta-pricing">
   <div class="container">
