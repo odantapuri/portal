@@ -9,7 +9,7 @@
       <div class="col-lg-6" data-aos="fade-up">
         <div class="testimonial-item">
           <img src="assets/img/testimonials/male-avatar.png" class="testimonial-img" alt="">
-          <h3>Rajarshi Ghosh</h3>
+          <h3>Rajarshi Biswas</h3>
           <i> M.Sc(Mathematics), B.Ed from University of Kalyani </i>
           <p>
             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
