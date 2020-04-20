@@ -45,8 +45,6 @@
     <div class="container d-flex">
       <div class="contact-info mr-auto">
         <i class="icofont-envelope"></i><a href="mailto:contact@example.com">hr@odantapuri.net.in</a>
-        <span font-size=14px>Odantapuri Classes </span>
-
         <i class="icofont-whatsapp" style="border-left: 1px solid;padding-left: 10px;margin-left: 10px;"></i> +91 9593930068
       </div>
       <div class="social-links">
@@ -64,7 +62,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="joinFreeClassesModalLabel">Enter details about yourself</h5>
+          <h5 class="modal-title" id="joinFreeClassesModalLabel">Enter details about yourself to enroll for a free class</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -123,90 +121,8 @@
           <li><a href="teacher">TEACHER</a></li>
           <li><a href="#">ONLINE CLASS</a></li>
           <li><a href="#joinFreeClassesModal" data-toggle="modal" class="btn" style="color: #fff; background-color: #fd5c28; padding-left: 20px; padding-right: 20px;">START CLASSES FOR FREE</a></li>
-          <!-- <li><a href="services.html">Services</a></li> 
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Pricing</a></li> -->
-          <!--<li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li> -->
-
         </ul>
       </nav><!-- .nav-menu -->
-
-      <!-- join classes modal -->
-
-      <div class="modal fade" id="joinFreeClassesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="joinFreeClassesModalLabel">Enter details about yourself</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="form-group">
-                  <input type="text" class="form-control" id="inputName" placeholder="Enter name">
-                </div>
-                <div class="form-group">
-                  <!-- <div class="icon"><i class="icofont-email"></i></div> -->
-                  <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                  <!-- <div class="icon"><i class="icofont-phone"></i></div> -->
-                  <input type="number" class="form-control" id="inputPhone" placeholder="Enter phone number">
-                </div>
-                <div class="form-group">
-                  <select class="custom-select" id="inputClass">
-                    <option selected>Select Class</option>
-                    <option value="1">IX</option>
-                    <option value="2">X</option>
-                    <option value="3">XI</option>
-                    <option value="3">XII</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <select class="custom-select" id="inputSubject">
-                    <option selected>Select Subject</option>
-                    <option value="1">Mathematics</option>
-                    <option value="2">Physics</option>
-                    <option value="3">Chemistry</option>
-                    <option value="4">Life Science</option>
-                    <option value="5">Physical Science</option>
-                    <option value="6">English</option>
-                    <option value="7">Biology</option>
-                  </select>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" id="joinFreeClassesResetBtn">Reset</button>
-              <button type="button" class="btn btn-orange" id="joinFreeClassesSubmitBtn">Submit</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- modal end -->
-
     </div>
   </header><!-- End Header -->
 

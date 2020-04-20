@@ -63,15 +63,15 @@
 
       <div class="row">
         <div class="col-lg-9 text-center" style="margin: 0 auto;">
-          <h3>We are exclusively dedicated to <span>West Bengal</span> students <br><span style="font-weight: 500;">(ICSE, CBSE and West Bengal Board)</span></h3>
-          <h4 style="padding-top: 20px;"><b>Coaching for Classes 9th and 10th</b></h4>
+          <h3>We are exclusively dedicated to <span>West Bengal</span> students <br><span style="font-weight: 500;">(ICSE, CBSE and WBBSE)</span></h3>
+          <h4 style="padding-top: 5px;"><b>Coaching for Classes 9th and 10th</b></h4>
           <div class="row" style="justify-content: center;">
             <div class="col-lg-3 col-md-4 subject-item">Physical Science</div>
             <div class="col-lg-3 col-md-4 subject-item">Life Science</div>
             <div class="col-lg-3 col-md-4 subject-item">Mathematics</div>
             <div class="col-lg-3 col-md-4 subject-item">English</div>
           </div>
-          <h4 style="padding-top: 20px;"><b>Coaching for Classes 11th and 12th</b></h4>
+          <h4 style="padding-top: 5px;"><b>Coaching for Classes 11th and 12th</b></h4>
           <div class="row" style="justify-content: center;">
             <div class="col-lg-2 col-md-4 subject-item">Physics</div>
             <div class="col-lg-2 col-md-4 subject-item">Chemistry</div>
@@ -79,7 +79,9 @@
             <div class="col-lg-2 col-md-4 subject-item">Biology</div>
             <div class="col-lg-2 col-md-4 subject-item">English</div>
           </div>
+          <h6 style="padding-top: 15px;"><b>Coaching for Entrance Examinations Kishore Vaigyanik Protsahan Yojana (KVPY) and Indian Institutes of Science Education and Research (IISER)</b></h6>
         </div>
+        
       </div>
 
 

@@ -17,7 +17,7 @@
 <section class="headingrow">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 col-sm-12 headingteaching" style="font-size:28px; line-height: 1.6;">
+      <div class="col-md-12 col-sm-12 headingteaching" style="font-size:20px; line-height: 1.6;">
         We believe quality education should be easily accessible to the entire population irrespective of one's financial background. We at Odantapuri are committed towards imparting world class education at an affordable price. On this note, we would encourage talented students from the financially weaker segments to write back to us for further discounts.
       </div>
     </div>
@@ -58,45 +58,39 @@
 </section>
 <section id="pricing-quotes" class="pricing-quotes">
   <div class="container text-center" data-aos="fade-up">
-    <h1>Pricing Plans</h1>
+    <h2>Pricing Plans</h2>
     <div class="tab">
-      <button class="tablinks active" style="font-size:25px;" id="monthlyTab">Monthly</button>
-      <button class="tablinks" style="font-size:25px;" id="quarterlyTab">Quarterly</button>
-      <button class="tablinks" style="font-size:25px;" id="yearlyTab">Yearly</button>
+      <button class="tablinks active" style="font-size:20px;" id="monthlyTab">Monthly</button>
+      <button class="tablinks" style="font-size:20px;" id="yearlyTab">Yearly</button>
+      <!--<button class="tablinks" style="font-size:20px;" id="quarterlyTab">Customized</button> -->
     </div>
-    <p>Get 8 classes a month (2 classes per week) for each subject signed up. We courage students to choose classes 2-3 days apart so that they get time to absord what they learn. With the ample time between the classes, students will have sufficient time for self learning & complete any assignment given by the teacher.</p>
     <div class="row tab-wrapper active" id="monthlyPlan">
 
-      <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6">
         <div class="box">
-          <h3 class="box-heading">Free</h3>
-          <h4 class="box-pricing"><sup>₹</sup>0<span> / month</span></h4>
-          <p class="box-desc">This is monthly plan.</p>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
-          </div>
+          <h3 class="box-heading">Class 9 and Class 10</h3>
+          <p class="box-desc">Physics / Chemistry / Mathematics / English</p>
+          <h4 class="box-pricing"><sup>₹</sup>500<span> / month / Subject</span></h4>
+          <p class="box-desc">Additional Tool Cost of ₹ 150 + GST</p>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
         <div class="box">
-          <h3 class="box-heading">Advanced</h3>
-          <h4 class="box-pricing"><sup>₹</sup>100<span> / month</span></h4>
-          <p class="box-desc">This is monthly plan.</p>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
-          </div>
+          <h3 class="box-heading">Class 11 and Class 12</h3>
+          <p class="box-desc">Physics / Chemistry / Mathematics / Biology / English</p>
+          <h4 class="box-pricing"><sup>₹</sup>1000<span> / month / Subject </span></h4>
+          <p class="box-desc">Additional Tool Cost of ₹ 150 + GST</p>
+          
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
         <div class="box">
-          <h3 class="box-heading">Expert</h3>
-          <h4 class="box-pricing"><sup>₹</sup>400<span> / month</span></h4>
-          <p class="box-desc">This is monthly plan.</p>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
-          </div>
+          <h3 class="box-heading">Entrance Examinations</h3>
+          <!--<h4 class="box-pricing"><sup>₹</sup>400<span> / month</span></h4> -->
+          <p class="box-desc">Kishore Vaigyanik Protsahan Yojana (KVPY) and Indian Institutes of Science Education and Research (IISER) <br/></p>
+          <p class="box-desc">Please send an e-mail to hr@odantapuri.net.in regarding your interest and we will get back to you.</p>
         </div>
       </div>
     </div>
@@ -138,36 +132,31 @@
     </div>
     <div class="row tab-wrapper" id="yearlyPlan">
 
-      <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6">
         <div class="box">
-          <h3 class="box-heading">Free</h3>
-          <h4 class="box-pricing"><sup>₹</sup>0<span> / month</span></h4>
-          <p class="box-desc">This is yearly plan.</p>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
-          </div>
+          <h3 class="box-heading">Class 9 and Class 10</h3>
+          <p class="box-desc">Physics / Chemistry / Mathematics / English</p>
+          <h4 class="box-pricing"><sup>₹</sup>5000<span> / year / Subject + GST</span></h4>
+          <p class="box-desc">Student Collaboration tool will be provided free of cost.</p>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
         <div class="box">
-          <h3 class="box-heading">Advanced</h3>
-          <h4 class="box-pricing"><sup>₹</sup>800<span> / month</span></h4>
-          <p class="box-desc">This is yearly plan.</p>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
-          </div>
+          <h3 class="box-heading">Class 11 and Class 12</h3>
+          <p class="box-desc">Physics / Chemistry / Mathematics / Biology / English</p>
+          <h4 class="box-pricing"><sup>₹</sup>10000<span> / year / Subject + GST</span></h4>
+          <p class="box-desc">Student Collaboration tool will be provided free of cost.</p>
+          
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
         <div class="box">
-          <h3 class="box-heading">Expert</h3>
-          <h4 class="box-pricing"><sup>₹</sup>1200<span> / month</span></h4>
-          <p class="box-desc">This is yearly plan.</p>
-          <div class="btn-wrap">
-            <a href="#" class="btn-buy">Buy Now</a>
-          </div>
+          <h3 class="box-heading">Entrance Examinations</h3>
+          <!--<h4 class="box-pricing"><sup>₹</sup>400<span> / month</span></h4> -->
+          <p class="box-desc">Kishore Vaigyanik Protsahan Yojana (KVPY) and Indian Institutes of Science Education and Research (IISER) <br/><br/> </p>
+          <p class="box-desc">Please send an e-mail to hr@odantapuri.net.in regarding your interest and we will get back to you.</p>
         </div>
       </div>
     </div>
@@ -178,8 +167,8 @@
 
     <div class="text-center">
       <h3>Book Your Seat</h3>
-      <p> Book your classes now</p>
-      <a class="cta-btn" href="#">Book Now</a>
+      <p> Book your free class now</p>
+      <a class="cta-btn" href="#joinFreeClassesModal" data-toggle="modal">Book Now</a>
     </div>
 
   </div>
