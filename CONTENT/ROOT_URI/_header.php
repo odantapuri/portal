@@ -1,3 +1,4 @@
+
 <script>
   if (window.history.replaceState) {
     window.history.replaceState(null, null, window.location.href);
@@ -15,6 +16,7 @@
 <html lang="en">
 
 <head>
+  <base target="_parent">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -119,7 +121,7 @@
           <li><a href="/">HOME</a></li>
           <li><a href="pricing">PRICING</a></li>
           <li><a href="teacher">TEACHER</a></li>
-          <li><a href="#">ONLINE CLASS</a></li>
+          <li><a href="onlineclasses">ONLINE CLASS</a></li>
           <li><a href="#joinFreeClassesModal" data-toggle="modal" class="btn" style="color: #fff; background-color: #fd5c28; padding-left: 20px; padding-right: 20px;">START CLASSES FOR FREE</a></li>
         </ul>
       </nav><!-- .nav-menu -->
