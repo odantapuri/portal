@@ -44,20 +44,20 @@
     $(joinFreeClassesSubmitBtn).on('click', submitModalForm);
 
     function resetModalForm() {
-      $("#joinFreeClassesModal #inputName").val('');
-      $("#joinFreeClassesModal #inputEmail").val('');
-      $("#joinFreeClassesModal #inputPhone").val('');
-      $('#joinFreeClassesModal #inputClass').find(":selected").text('Select class');
-      $('#joinFreeClassesModal #inputSubject').find(":selected").text('Select subject');
+      $("#joinFreeClassesModal #studentName").val('');
+      $("#joinFreeClassesModal #studentEmail").val('');
+      $("#joinFreeClassesModal #contactNo").val('');
+      $('#joinFreeClassesModal #studentClass').find(":selected").text('Select class');
+      $('#joinFreeClassesModal #studentSubject').find(":selected").text('Select subject');
     }
 
     function submitModalForm() {
       var formInputs = {};
-      formInputs.name = $("#joinFreeClassesModal #inputName").val();
-      formInputs.email = $("#joinFreeClassesModal #inputEmail").val();
-      formInputs.phone = $("#joinFreeClassesModal #inputPhone").val();
-      formInputs.class = $('#joinFreeClassesModal #inputClass').find(":selected").text().toUpperCase() === "SELECT CLASS" ? "" : $('#joinFreeClassesModal #inputClass').find(":selected").text();
-      formInputs.subject = $('#joinFreeClassesModal #inputSubject').find(":selected").text().toUpperCase() === "SELECT SUBJECT" ? "" : $('#joinFreeClassesModal #inputSubject').find(":selected").text();
+      formInputs.name = $("#joinFreeClassesModal #studentName").val();
+      formInputs.email = $("#joinFreeClassesModal #studentEmail").val();
+      formInputs.phone = $("#joinFreeClassesModal #contactNo").val();
+      formInputs.class = $('#joinFreeClassesModal #studentClass').find(":selected").text().toUpperCase() === "SELECT CLASS" ? "" : $('#joinFreeClassesModal #inputClass').find(":selected").text();
+      formInputs.subject = $('#joinFreeClassesModal #studentSubject').find(":selected").text().toUpperCase() === "SELECT SUBJECT" ? "" : $('#joinFreeClassesModal #inputSubject').find(":selected").text();
       var dataString = 'studentName='+ formInputs.name + '&studentEmail='+ formInputs.email + '&contactNo='+ formInputs.phone + '&inputClass='+ formInputs.class + '&inputSubject='+ formInputs.subject;
       $.ajax({
       type: "POST",
@@ -66,11 +66,13 @@
       cache: false,
       success: function(result){
       alert(result);
+      window.location.replace("/");
+    }
       }
       });
-
+      
       resetModalForm();
-    }
+      
   </script>
 
 </body>

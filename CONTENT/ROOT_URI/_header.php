@@ -68,22 +68,22 @@
           <div class="modal-body">
 
             <div class="form-group">
-              <input id="inputName" type="text" class="form-control" name="studentName" placeholder="Please enter your Name">
+              <input id="studentName" type="text" class="form-control" name="studentName" placeholder="Please enter your Name">
             </div>
             <div class="form-group">
-              <input id="inputEmail" type="text" class="form-control" name="studentEmail" placeholder="Please enter your Email Address">
+              <input id="studentEmail" type="text" class="form-control" name="studentEmail" placeholder="Please enter your Email Address">
             </div>
             <div class="form-group">
-              <input id="inputPhone" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
+              <input id="contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
             </div>
-            <select class="custom-select form-group" id="inputClass" name="inputClass">
+            <select class="custom-select form-group" id="studentClass" name="studentClass">
               <option selected>Select Class</option>
               <option value="IX">IX</option>
               <option value="X">X</option>
               <option value="XI">XI</option>
               <option value="XII">XII</option>
             </select>
-            <select class="custom-select" id="inputSubject" name="inputSubject">
+            <select class="custom-select" id="studentSubject" name="studentSubject">
               <option selected>Select Subject</option>
               <option value="Mathematics">Mathematics</option>
               <option value="Physics">Physics</option>

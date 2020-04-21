@@ -22,8 +22,8 @@
  $inputName = $_POST['studentName'];
  $inputEmail = $_POST['studentEmail'];
  $phone_no = $_POST['contactNo'];
- $grade = $_POST['inputClass'];
- $subject = $_POST['inputSubject'];
+ $grade = $_POST['studentClass'];
+ $subject = $_POST['studentSubject'];
 
  $sql = "INSERT INTO Enquiry (name, email, phone_no, class, subject) VALUES ('$inputName', '$inputEmail', '$phone_no', '$grade', '$subject')";
  //.$name.'\')';
@@ -46,6 +46,7 @@
  //header('Location: /');
 
   echo 'You will get a mail!';
+  //echo '<meta http-equiv="refresh" content="2;URL='."'./'".'" />';
 
 
  ?>
