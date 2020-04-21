@@ -68,40 +68,41 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          <form>
+        <form action="test.php" method="post">
+          <div class="modal-body">
+          
             <div class="form-group">
-              <input id="inputName" type="text" class="form-control" name="name" placeholder="Please enter your Name">
+              <input id="studentName" type="text" class="form-control" name="studentName" placeholder="Please enter your Name">
             </div>
             <div class="form-group">
-              <input id="inputEmail" type="text" class="form-control" name="email" placeholder="Please enter your Email Address">
+              <input id="studentEmail" type="text" class="form-control" name="studentEmail" placeholder="Please enter your Email Address">
             </div>
             <div class="form-group">
-              <input id="inputContact" contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
+              <input id="contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
             </div>
-            <select class="custom-select form-group" id="inputClass">
+            <select class="custom-select form-group" id="inputClass" name="inputClass">
               <option selected>Select Class</option>
-              <option value="1">IX</option>
-              <option value="2">X</option>
-              <option value="3">XI</option>
-              <option value="3">XII</option>
+              <option value="IX">IX</option>
+              <option value="X">X</option>
+              <option value="XI">XI</option>
+              <option value="XII">XII</option>
             </select>
-            <select class="custom-select" id="inputSubject">
+            <select class="custom-select" id="inputSubject" name="inputSubject">
               <option selected>Select Subject</option>
-              <option value="1">Mathematics</option>
-              <option value="2">Physics</option>
-              <option value="3">Chemistry</option>
-              <option value="4">Life Science</option>
-              <option value="5">Physical Science</option>
-              <option value="6">English</option>
-              <option value="7">Biology</option>
+              <option value="Mathematics">Mathematics</option>
+              <option value="Physics">Physics</option>
+              <option value="Chemistry">Chemistry</option>
+              <option value="Life Science">Life Science</option>
+              <option value="Physical Science">Physical Science</option>
+              <option value="English">English</option>
+              <option value="Biology">Biology</option>
             </select>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" id="joinFreeClassesResetBtn">Reset</button>
-          <button type="button" class="btn btn-orange" id="joinFreeClassesSubmitBtn">Submit</button>
-        </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="joinFreeClassesResetBtn">Reset</button>
+            <button type="submit" class="btn btn-orange" id="joinFreeClassesSubmitBtn">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>

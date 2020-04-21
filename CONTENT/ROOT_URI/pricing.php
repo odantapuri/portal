@@ -40,7 +40,7 @@
         <div class="box upper" data-aos="fade-up">
           <div class="icon"><i class="icofont-dashboard"></i></div>
           <h3 class="box-heading">FLEXIBLE PAYMENT</h3>
-          <p class="box-desc">Students have the option to choose from monthly, quarterly and annual payment plans. </p>
+          <p class="box-desc">Students have the option to choose from monthly, annual and customized payment plans. </p>
         </div>
       </div>
 
@@ -48,7 +48,7 @@
         <div class="box upper" data-aos="fade-left">
           <div class="icon"><i class="icofont-safety"></i></div>
           <h3 class="box-heading">ULTIMATE EXPERIENCE</h3>
-          <p class="box-desc">Join us and be a part of ourselves and experience the difference.</p>
+          <p class="box-desc">Join us, be a part of ourselves and experience the difference.</p>
         </div>
       </div>
 

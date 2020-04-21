@@ -8,4 +8,13 @@ include("_header.php");
    else include("_404.php");
 include("_footer.php");
 
+$ok = isset($_GET['ok']);
+
+//Insert this code where you wanted to show the msg
+if($ok)  {
+     echo '<div class="alert alert-success" role="alert">
+             Password has been updated and the user needs to login again
+           </div>';
+}
+
 ?>

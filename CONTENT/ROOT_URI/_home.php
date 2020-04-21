@@ -1,3 +1,4 @@
+
 <section id="hero">
   <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
@@ -114,7 +115,7 @@
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="icofont-earth"></i></div>
             <h4 class="title"><a href="">Assessment</a></h4>
-            <p class="description">Our teachers performs an intricate assessment of your understanding and provide regular feedbacks.</p>
+            <p class="description">Our teachers performs an intricate assessment of the student's understanding and provide regular feedbacks.</p>
           </div>
         </div>
       </div>
