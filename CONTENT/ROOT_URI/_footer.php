@@ -56,23 +56,28 @@
       formInputs.name = $("#joinFreeClassesModal #studentName").val();
       formInputs.email = $("#joinFreeClassesModal #studentEmail").val();
       formInputs.phone = $("#joinFreeClassesModal #contactNo").val();
-      formInputs.class = $('#joinFreeClassesModal #studentClass').find(":selected").text().toUpperCase() === "SELECT CLASS" ? "" : $('#joinFreeClassesModal #inputClass').find(":selected").text();
-      formInputs.subject = $('#joinFreeClassesModal #studentSubject').find(":selected").text().toUpperCase() === "SELECT SUBJECT" ? "" : $('#joinFreeClassesModal #inputSubject').find(":selected").text();
-      var dataString = 'studentName='+ formInputs.name + '&studentEmail='+ formInputs.email + '&contactNo='+ formInputs.phone + '&inputClass='+ formInputs.class + '&inputSubject='+ formInputs.subject;
+      formInputs.class = $('#joinFreeClassesModal #studentClass').find(":selected").text().toUpperCase() === "SELECT CLASS" ? "" : $('#joinFreeClassesModal #studentClass').find(":selected").text();
+      formInputs.subject = $('#joinFreeClassesModal #studentSubject').find(":selected").text().toUpperCase() === "SELECT SUBJECT" ? "" : $('#joinFreeClassesModal #studentSubject').find(":selected").text();
+      var dataString = 'studentName='+ formInputs.name + '&studentEmail='+ formInputs.email + '&contactNo='+ formInputs.phone + '&studentClass='+ formInputs.class + '&studentSubject='+ formInputs.subject;
       $.ajax({
-      type: "POST",
-      url: "test.php",
-      data: dataString,
-      cache: false,
-      success: function(result){
-      alert(result);
-      window.location.replace("/");
-    }
-      }
+        type: "POST",
+        url: "dbconnection.php",
+        async: false,
+        data: dataString,
+        cache: false,
+        beforeSend: function(){
+				  $('#submit-control').html("<img src='LoaderIcon.gif' />");
+			  },
+			  success: function(data){
+				  //setInterval(function(){ $('#submit-control').html("Form submited Successfully!") },1000);
+          alert(data);
+          //resetModalForm();
+			  }
       });
+      window.location.replace("/");
       
-      resetModalForm();
       
+    }  
   </script>
 
 </body>

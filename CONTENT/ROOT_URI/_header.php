@@ -96,7 +96,9 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" id="joinFreeClassesResetBtn">Reset</button>
+            <div id="submit-control">
             <button type="button" onclick="submitModalForm()" class="btn btn-orange" id="joinFreeClassesSubmitBtn">Submit</button>
+            </div>
           </div>
         </form>
       </div>

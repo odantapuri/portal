@@ -6,7 +6,7 @@
  $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
 
  if(! $conn ) {
- die('Could not connect: ' . mysql_error());
+    die('Could not connect: ' . mysql_error());
  }
 
  //echo 'Connected successfully<br />';
@@ -26,18 +26,11 @@
  $subject = $_POST['studentSubject'];
 
  $sql = "INSERT INTO Enquiry (name, email, phone_no, class, subject) VALUES ('$inputName', '$inputEmail', '$phone_no', '$grade', '$subject')";
- //.$name.'\')';
- //'\', \''.$email.'\', \''.$phone_no.'\', \''.$grade.'\',\''.$subject.'\');'
-
- //echo $sql;
-
- //mysqli_query($conn, $sql );
-
+ 
  if(!mysqli_query($conn, $sql)) {
  //echo ('Could not insert record : ' . mysql_error());
  }
 
- //echo "Database PRODUCTS created successfully\n";
  mysqli_close($conn);
  //header("refresh:2; url=_home.php");
  // echo '<script>alert("Welcome to Geeks for Geeks")</script>';
@@ -45,8 +38,8 @@
  // echo '<script>window.location.replace("/")</script>';
  //header('Location: /');
 
-  echo 'You will get a mail!';
+  //echo 'You will get a mail!';
   //echo '<meta http-equiv="refresh" content="2;URL='."'./'".'" />';
-
+  echo 'Thanks for your interest. Shortly you will receive an e-mail regarding your free class.'
 
  ?>
