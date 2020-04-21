@@ -35,5 +35,42 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+
+    var joinFreeClassesResetBtn = $("#joinFreeClassesResetBtn");
+    var joinFreeClassesSubmitBtn = $("#joinFreeClassesSubmitBtn");
+
+    $(joinFreeClassesResetBtn).on('click', resetModalForm);
+    $(joinFreeClassesSubmitBtn).on('click', submitModalForm);
+
+    function resetModalForm() {
+      $("#joinFreeClassesModal #inputName").val('');
+      $("#joinFreeClassesModal #inputEmail").val('');
+      $("#joinFreeClassesModal #inputPhone").val('');
+      $('#joinFreeClassesModal #inputClass').find(":selected").text('Select class');
+      $('#joinFreeClassesModal #inputSubject').find(":selected").text('Select subject');
+    }
+
+    function submitModalForm() {
+      var formInputs = {};
+      formInputs.name = $("#joinFreeClassesModal #inputName").val();
+      formInputs.email = $("#joinFreeClassesModal #inputEmail").val();
+      formInputs.phone = $("#joinFreeClassesModal #inputPhone").val();
+      formInputs.class = $('#joinFreeClassesModal #inputClass').find(":selected").text().toUpperCase() === "SELECT CLASS" ? "" : $('#joinFreeClassesModal #inputClass').find(":selected").text();
+      formInputs.subject = $('#joinFreeClassesModal #inputSubject').find(":selected").text().toUpperCase() === "SELECT SUBJECT" ? "" : $('#joinFreeClassesModal #inputSubject').find(":selected").text();
+      var dataString = 'studentName='+ formInputs.name + '&studentEmail='+ formInputs.email + '&contactNo='+ formInputs.phone + '&inputClass='+ formInputs.class + '&inputSubject='+ formInputs.subject;
+      $.ajax({
+      type: "POST",
+      url: "test.php",
+      data: dataString,
+      cache: false,
+      success: function(result){
+      alert(result);
+      }
+      });
+
+      resetModalForm();
+    }
+  </script>
 
 </body>
