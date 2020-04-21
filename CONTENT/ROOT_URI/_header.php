@@ -1,9 +1,4 @@
 
-<script>
-  if (window.history.replaceState) {
-    window.history.replaceState(null, null, window.location.href);
-  }
-</script>
 <style type="text/css">
   .sticky {
     position: fixed;
@@ -37,6 +32,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <title>Odantapuri Classes</title>
+  
 </head>
 
 <body>
@@ -70,15 +66,15 @@
         </div>
         <form action="test.php" method="post">
           <div class="modal-body">
-          
+
             <div class="form-group">
-              <input id="studentName" type="text" class="form-control" name="studentName" placeholder="Please enter your Name">
+              <input id="inputName" type="text" class="form-control" name="studentName" placeholder="Please enter your Name">
             </div>
             <div class="form-group">
-              <input id="studentEmail" type="text" class="form-control" name="studentEmail" placeholder="Please enter your Email Address">
+              <input id="inputEmail" type="text" class="form-control" name="studentEmail" placeholder="Please enter your Email Address">
             </div>
             <div class="form-group">
-              <input id="contactNo" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
+              <input id="inputPhone" type="text" class="form-control" name="contactNo" placeholder="Please enter your Phone Number">
             </div>
             <select class="custom-select form-group" id="inputClass" name="inputClass">
               <option selected>Select Class</option>
@@ -100,7 +96,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" id="joinFreeClassesResetBtn">Reset</button>
-            <button type="submit" class="btn btn-orange" id="joinFreeClassesSubmitBtn">Submit</button>
+            <button type="button" onclick="submitModalForm()" class="btn btn-orange" id="joinFreeClassesSubmitBtn">Submit</button>
           </div>
         </form>
       </div>
