@@ -60,9 +60,9 @@
   <div class="container text-center" data-aos="fade-up">
     <h2>Pricing Plans</h2>
     <div class="tab">
-      <button class="tablinks active" style="font-size:20px;" id="monthlyTab">Monthly</button>
+      <!--<button class="tablinks active" style="font-size:20px;" id="monthlyTab">Monthly</button>
       <button class="tablinks" style="font-size:20px;" id="yearlyTab">Yearly</button>
-      <!--<button class="tablinks" style="font-size:20px;" id="quarterlyTab">Customized</button> -->
+      <button class="tablinks" style="font-size:20px;" id="quarterlyTab">Customized</button> -->
     </div>
     <div class="row tab-wrapper active" id="monthlyPlan">
 

@@ -1,8 +1,8 @@
 <?php
  $dbhost = '127.0.0.1';
- $dbuser = 'root';
- $dbpass = '0000';
- $dbname = 'ENQUIRY';
+ $dbuser = 'admin_ENQUIRY';
+ $dbpass = '000000';
+ $dbname = 'admin_ENQUIRY';
  $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
 
  if(! $conn ) {
