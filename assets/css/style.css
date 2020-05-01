@@ -2280,3 +2280,50 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/*--------------------------------------------------------------
+# Courses
+--------------------------------------------------------------*/
+
+.course-menu {
+  background: none;
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  /* z-index: -1; */
+}
+.course-content {
+  padding-left: 20%;
+}
+
+ul.menu-list > li {
+  background: transparent;
+  color: #fff;
+  padding-left: 40px;
+}
+
+ul.menu-list > li.no-padding {
+  padding-left: 20px;
+}
+
+#courses section {
+  padding: 100px 0 0;
+}
+
+/*--------------------------------------------------------------
+# Home banner
+--------------------------------------------------------------*/
+
+.home-banner {
+  display: flex;
+  justify-content: center;;
+  background-image: linear-gradient(rgba(255,98,0,1),rgba(255,128,0,0.9));
+  color: #fff;
+  padding: 100px 0;
+}
+
+.banner-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

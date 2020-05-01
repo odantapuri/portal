@@ -1,60 +1,16 @@
+<!-- removed carousel -->
 
-<section id="hero">
-  <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-
-    <div class="carousel-inner" role="listbox">
-
-      <!-- Slide 1 -->
-      <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
-        <div class="container">
-          <div class="carousel-content animated fadeInUp">
-            <h2>Welcome to <span>Odantapuri Classes</span></h2>
-            <p>Odantapuri is a social learning community. Ultimate destination for students to connect, learn and collaborate with the brightest minds.
-
-              Get tuition classes from passionate, professional and experienced tutors for all the curriculums ICSE, CBSE, and West Bengal Board.</p>
-            <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
-        <div class="container">
-          <div class="carousel-content animated fadeInUp">
-            <h2>Learn from anywhere</h2>
-            <p>On an average a student spends significant amount of time just on travel to get quality education. We want to cut down the travel and bring quality education at the student’s study table. </p>
-            <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
-        <div class="container">
-          <div class="carousel-content animated fadeInUp">
-            <h2>Best Coaching Classes</h2>
-            <p>We believe its not only quality education, but factors such as individual attention, student collaboration, and intricate assessments are vital ingredients for the development of a student. We at Odantapuri have collaborated with various technology partners to replicate such an environment.</p>
-            <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-
-    <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-
-    <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
+<div class="home-banner">
+  <div class="banner-content col-md-4">
+    <h1>This is banner heading</h1>
+    <h3>This is banner subheading</h3>
+    <p class="content-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
   </div>
-</section><!-- End Hero -->
+  <div class="banner-video col-md-4" style="float:right;">
+    <iframe width="380" height="210" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+  </div>
+</div>
 
 <main id="main">
 
@@ -82,7 +38,7 @@
           </div>
           <h6 style="padding-top: 15px;"><b>Coaching for Entrance Examinations Kishore Vaigyanik Protsahan Yojana (KVPY) and Indian Institutes of Science Education and Research (IISER)</b></h6>
         </div>
-        
+
       </div>
 
 
