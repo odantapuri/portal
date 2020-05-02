@@ -1,60 +1,43 @@
 <section id="courses" class="courses">
-  <div class="section-title" data-aos="fade-up" style="text-align: center;">
-    <h2><strong>Our Courses</strong></h2>
-  </div>
-
-  <div class="row">
-    <div class="col-md-2 course-menu" style="padding: 0;">
-      <ul class="list-group menu-list">
-        <li class="list-group-item no-padding" style="font-size: 20px;"><a href="#class_11">Class 11</a></li>
-        <li class="list-group-item"><a href="#class_11">Physics</a></li>
-        <li class="list-group-item"><a href="#class_11_chem">Chemistry</a></li>
-        <li class="list-group-item"><a href="#class_11_maths">Maths</a></li>
-      </ul>
+  <div class="courses-wrapper row" data-aos="fade-up" style="text-align: center;">
+    <div class="section-title col-md-12">
+      <h2><strong>Our Courses</strong></h2>
     </div>
-    <div class="course-content">
-      <section class="class-wrapper" id="class_11">
-        <h4 class="class-title">Class 11</h4>
-        <section class="subject-wrapper" id="class_11_phy" style="padding-top: 20px;">
-          <h5 class="subject-title">Physics</h5>
-          <ul class="list-group topic-list">
-            <li class="list-group-item list-group-item-light">Physical World and Measurement</li>
-            <li class="list-group-item list-group-item-light">Kinematics</li>
-            <li class="list-group-item list-group-item-light">Laws of Motion</li>
-            <li class="list-group-item list-group-item-light">Work, Energy and Power</li>
-            <li class="list-group-item list-group-item-light">Motion of System of Particles</li>
-            <li class="list-group-item list-group-item-light">Gravitation</li>
-          </ul>
-        </section>
-        <section class="subject-wrapper" id="class_11_chem">
-          <h5 class="subject-title">Chemistry</h5>
-          <ul class="list-group topic-list">
-            <li class="list-group-item list-group-item-light">Basic Concepts of Chemistry</li>
-            <li class="list-group-item list-group-item-light">Classification of Elements & Periodicity in Properties</li>
-            <li class="list-group-item list-group-item-light">Chemical Bonding and Molecular Structure</li>
-            <li class="list-group-item list-group-item-light">States of Matter: Gases and Liquids</li>
-            <li class="list-group-item list-group-item-light">Thermodynamics</li>
-            <li class="list-group-item list-group-item-light">Equilibrium</li>
-            <li class="list-group-item list-group-item-light">Redox Reactions</li>
-            <li class="list-group-item list-group-item-light">Hydrogen</li>
-            <li class="list-group-item list-group-item-light">s-Block Elements</li>
-            <li class="list-group-item list-group-item-light">Some p-Block Elements</li>
-            <li class="list-group-item list-group-item-light">Organic Chemistry: Basic Principles & Techniques</li>
-            <li class="list-group-item list-group-item-light">Hydrocarbons</li>
-            <li class="list-group-item list-group-item-light">Environmental Chemistry</li>
-          </ul>
-        </section>
-        <section class="subject-wrapper" id="class_11_maths">
-          <h5 class="subject-title">Maths</h5>
-          <ul class="list-group topic-list">
-            <li class="list-group-item list-group-item-light">Sets and Functions</li>
-            <li class="list-group-item list-group-item-light">Algebra</li>
-            <li class="list-group-item list-group-item-light">Coordinate Geometry</li>
-            <li class="list-group-item list-group-item-light">Calculus</li>
-            <li class="list-group-item list-group-item-light">Mathematical Reasoning</li>
-          </ul>
-        </section>
-      </section>
+    <div class="tabs-wrapper col-md-12">
+      <div class="tab small col-md-3" id="classTab">
+        <div class="tab-title col-md-12">Choose Class</div>
+        <button class="tablinks active" data-class="9" id="class_9">Class 9</button>
+        <button class="tablinks" data-class="10" id="class_10">Class 10</button>
+        <button class="tablinks" data-class="11" id="class_11">Class 11</button>
+        <button class="tablinks" data-class="12" id="class_12">Class 12</button>
+      </div>
+      <div class="tab small col-md-2" id="boardTab">
+        <div class="tab-title col-md-12">Choose Board</div>
+        <button class="tablinks active" data-board="icse" id="icse">ICSE</button>
+        <button class="tablinks" data-board="cbse" id="cbse">CBSE</button>
+        <button class="tablinks" data-board="wbb" id="wbb">WB Board</button>
+      </div>
+      <div class="tab small col-md-4" id="tab_9_10">
+        <div class="tab-title col-md-12">Choose Subject</div>
+        <button class="tablinks active" data-sub="phy" id="phy">Physics</button>
+        <button class="tablinks" data-sub="chem" id="chem">Chemistry</button>
+        <button class="tablinks" data-sub="maths" id="maths">Maths</button>
+        <button class="tablinks" data-sub="eng" id="eng">English</button>
+      </div>
+      <div class="tab small col-md-4 hide" id="tab_11_12">
+        <div class="tab-title col-md-12">Choose Subject</div>
+        <button class="tablinks active col-md-2" data-sub="phy" id="phy">Physics</button>
+        <button class="tablinks col-md-2" data-sub="chem" id="chem">Chemistry</button>
+        <button class="tablinks col-md-2" data-sub="maths" id="maths">Maths</button>
+        <button class="tablinks col-md-2" data-sub="bio" id="bio">Biology</button>
+        <button class="tablinks col-md-2" data-sub="eng" id="eng">English</button>
+      </div>
     </div>
+    <section class="content-wrapper col-md-12" id="content_wrapper">
+      <h2 class="subject-title col-md-12">Syllabus covered</h2>
+      <div class="syl-img-wrapper" id="sylImgWrapper">
+        <img src="" alt="syllabus" id="sylImg">
+      </div>
+    </section>
   </div>
 </section>

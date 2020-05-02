@@ -35,6 +35,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/courses.js"></script>
   <script type="text/javascript">
 
     var joinFreeClassesResetBtn = $("#joinFreeClassesResetBtn");
