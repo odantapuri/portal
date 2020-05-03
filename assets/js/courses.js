@@ -147,7 +147,7 @@ var syllabusData = {
 
   var selectedClass = 9;
   var selectedBoard = 'icse';
-  var selectedSubject = 'phy';
+  var selectedSubject = 'phy1';
 
   var classTab = $("#classTab");
   var class_9 = $("#class_9");
@@ -160,7 +160,7 @@ var syllabusData = {
   var cbse = $("#cbse");
   var wbb = $("#wbb");
 
-  var tab_9_10 = $("#tab_9_10");
+  var tab_9_10_cbse = $("#tab_9_10_cbse");
   var tab_11_12 = $("#tab_11_12");
 
   var phy = $("#phy");
@@ -206,13 +206,20 @@ var syllabusData = {
     }
 
     // set subject list
-    if (selectedId === 'class_9' || selectedId === 'class_10') {
-      $(tab_9_10).removeClass("hide");
+    if ((selectedId === 'class_9' || selectedId === 'class_10') && (selectedBoard === 'cbse')) {
+      $(tab_9_10_cbse).removeClass("hide");
       $(tab_11_12).addClass("hide");
+      $(tab_9_10_wbboard).addClass("hide");
+    }
+    else if ((selectedId === 'class_9' || selectedId === 'class_10') && (selectedBoard === 'wbb')){
+      $(tab_9_10_cbse).addClass("hide");
+      $(tab_11_12).addClass("hide");
+      $(tab_9_10_wbboard).removeClass("hide");
     }
     else {
-      $(tab_9_10).addClass("hide");
+      $(tab_9_10_cbse).addClass("hide");
       $(tab_11_12).removeClass("hide");
+      $(tab_9_10_wbboard).addClass("hide");
     }
 
     $(phy).addClass("active");
@@ -249,18 +256,37 @@ var syllabusData = {
       $(cbse).removeClass("active");
       $(wbb).addClass("active");
     }
+    console.log(selectedClass);
+    console.log(selectedId);
+    if ((selectedClass === '9' || selectedClass === '10') && (selectedId === 'cbse')) {
+      $(tab_9_10_cbse).removeClass("hide");
+      $(tab_11_12).addClass("hide");
+      $(tab_9_10_wbboard).addClass("hide");
+    }
+    else if ((selectedClass === '9' || selectedClass === '10') && (selectedId === 'wbb')){
+      $(tab_9_10_cbse).addClass("hide");
+      $(tab_11_12).addClass("hide");
+      $(tab_9_10_wbboard).removeClass("hide");
+    }
+    else {
+      $(tab_9_10_cbse).addClass("hide");
+      $(tab_11_12).removeClass("hide");
+      $(tab_9_10_wbboard).addClass("hide");
+    }
 
     // show content markup
     showContent();
   });
 
-  $(tab_9_10).click(handleSubjectClick);
-  $(tab_11_12).click(handleSubjectClick);
-
-  function handleSubjectClick(e) {
+  
+  $(tab_9_10_cbse).click(function (e) {
     var selectedId = e.target.id;
+    console.log (selectedId);
 
     selectedSubject = e.target.dataset.sub;
+
+    document.getElementsByClassName(name);
+  
 
     if (selectedId === 'phy') {
       $(phy).addClass("active");
@@ -270,6 +296,7 @@ var syllabusData = {
       $(eng).removeClass("active");
     }
     else if (selectedId === 'chem') {
+      console.log ("Inside Chemistry");
       $(phy).removeClass("active");
       $(chem).addClass("active");
       $(maths).removeClass("active");
@@ -299,7 +326,88 @@ var syllabusData = {
     }
 
     showContent();
-  }
+  });
+
+  $(tab_11_12).click(function (e) {
+    var selectedId = e.target.id;
+    console.log (selectedId);
+
+    selectedSubject = e.target.dataset.sub;
+
+    if (selectedId === 'phy1') {
+      $(phy1).addClass("active");
+      $(chem1).removeClass("active");
+      $(maths1).removeClass("active");
+      $(bio1).removeClass("active");
+      $(eng1).removeClass("active");
+    }
+    else if (selectedId === 'chem1') {
+      console.log ("Inside Chemistry");
+      $(phy1).removeClass("active");
+      $(chem1).addClass("active");
+      $(maths1).removeClass("active");
+      $(bio1).removeClass("active");
+      $(eng1).removeClass("active");
+    }
+    else if (selectedId === 'maths1') {
+      $(phy1).removeClass("active");
+      $(chem1).removeClass("active");
+      $(maths1).addClass("active");
+      $(bio1).removeClass("active");
+      $(eng1).removeClass("active");
+    }
+    else if (selectedId === 'bio1') {
+      $(phy1).removeClass("active");
+      $(chem1).removeClass("active");
+      $(maths1).removeClass("active");
+      $(bio1).addClass("active");
+      $(eng1).removeClass("active");
+    }
+    else if (selectedId === 'eng1') {
+      $(phy1).removeClass("active");
+      $(chem1).removeClass("active");
+      $(maths1).removeClass("active");
+      $(bio1).removeClass("active");
+      $(eng1).addClass("active");
+    }
+
+    showContent();
+  });
+   
+  $(tab_9_10_wbboard).click(function (e) {
+    var selectedId = e.target.id;
+    console.log (selectedId);
+
+    selectedSubject = e.target.dataset.sub;
+
+    if (selectedId === 'lsc') {
+      $(lsc).addClass("active");
+      $(psc).removeClass("active");
+      $(maths-wb).removeClass("active");
+      $(eng-wb).removeClass("active");
+    }
+    else if (selectedId === 'psc') {
+      $(lsc).removeClass("active");
+      $(psc).addClass("active");
+      $(maths-wb).removeClass("active");
+      $(eng-wb).removeClass("active");
+    }
+    else if (selectedId === 'maths-wb') {
+      $(lsc).removeClass("active");
+      $(psc).removeClass("active");
+      $(maths-wb).addClass("active");
+      $(eng-wb).removeClass("active");
+    }
+    else if (selectedId === 'eng-wb') {
+      $(lsc).removeClass("active");
+      $(psc).removeClass("active");
+      $(maths-wb).removeClass("active");
+      $(eng-wb).addClass("active");
+    }
+
+    showContent();
+  });  
+ 
 
   function showContent() {
 
