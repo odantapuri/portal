@@ -59,14 +59,14 @@
 <section id="pricing-quotes" class="pricing-quotes">
   <div class="container text-center" data-aos="fade-up">
     <h2>Pricing Plans</h2>
-    <div class="tab">
+    <!-- <div class="tab">
       <button class="tablinks active" style="font-size:20px;" id="monthlyTab">Monthly</button>
       <button class="tablinks" style="font-size:20px;" id="yearlyTab">Yearly</button>
       <button class="tablinks" style="font-size:20px;" id="quarterlyTab">Customized</button>
-    </div>
+    </div> -->
     <div class="row tab-wrapper active" id="monthlyPlan">
 
-    <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6">
         <div class="box">
           <h3 class="box-heading">Class 9 and Class 10</h3>
           <p class="box-desc">Physics / Chemistry / Mathematics / English</p>
@@ -81,7 +81,7 @@
           <p class="box-desc">Physics / Chemistry / Mathematics / Biology / English</p>
           <h4 class="box-pricing"><sup>₹</sup>1000<span> / month / Subject </span></h4>
           <p class="box-desc">Additional Tool Cost of ₹ 150 + GST</p>
-          
+
         </div>
       </div>
 
@@ -89,7 +89,7 @@
         <div class="box">
           <h3 class="box-heading">Entrance Examinations</h3>
           <!--<h4 class="box-pricing"><sup>₹</sup>400<span> / month</span></h4> -->
-          <p class="box-desc">Kishore Vaigyanik Protsahan Yojana (KVPY) and Indian Institutes of Science Education and Research (IISER) <br/></p>
+          <p class="box-desc">Kishore Vaigyanik Protsahan Yojana (KVPY) and Indian Institutes of Science Education and Research (IISER) <br /></p>
           <p class="box-desc">Please send an e-mail to hr@odantapuri.net.in regarding your interest and we will get back to you.</p>
         </div>
       </div>
@@ -132,7 +132,7 @@
     </div>
     <div class="row tab-wrapper" id="yearlyPlan">
 
-    <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6">
         <div class="box">
           <h3 class="box-heading">Class 9 and Class 10</h3>
           <p class="box-desc">Physics / Chemistry / Mathematics / English</p>
@@ -154,7 +154,7 @@
         <div class="box">
           <h3 class="box-heading">Entrance Examinations</h3>
           <!--<h4 class="box-pricing"><sup>₹</sup>400<span> / month</span></h4> -->
-          <p class="box-desc">Kishore Vaigyanik Protsahan Yojana (KVPY) and Indian Institutes of Science Education and Research (IISER) <br/><br/> </p>
+          <p class="box-desc">Kishore Vaigyanik Protsahan Yojana (KVPY) and Indian Institutes of Science Education and Research (IISER) <br /><br /> </p>
           <p class="box-desc">Please send an e-mail to hr@odantapuri.net.in regarding your interest and we will get back to you.</p>
         </div>
       </div>
