@@ -2397,3 +2397,25 @@ section {
   padding: 40px;
   background: #ddd;
 }
+
+#courses section {
+  padding: 100px 0 0;
+}
+
+/*--------------------------------------------------------------
+# Home banner
+--------------------------------------------------------------*/
+
+.home-banner {
+  display: flex;
+  justify-content: center;;
+  background-image: linear-gradient(rgba(255,98,0,1),rgba(255,128,0,0.9));
+  color: #fff;
+  padding: 100px 0;
+}
+
+.banner-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
