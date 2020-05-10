@@ -7,27 +7,27 @@ var syllabusData = {
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "maths":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+      "bio":
+        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "eng":
         "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     },
     "cbse": {
-      "phy":
+      "sciencecbse":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "chem":
+      "mathscbse":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "eng":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
+      "engcbse":
+        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE 
     },
     "wbb": {
-      "phy":
+      "lsc":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "chem":
+      "psc":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "maths":
+      "mathswb":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "eng":
+      "engwb":
         "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     }
   },
@@ -43,23 +43,21 @@ var syllabusData = {
         "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     },
     "cbse": {
-      "phy":
+      "sciencecbse":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "chem":
+      "mathscbse":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "eng":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
+      "engcbse":
+        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE 
     },
     "wbb": {
-      "phy":
+      "lsc":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "chem":
+      "psc":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "maths":
+      "mathswb":
         "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
-      "eng":
+      "engwb":
         "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     }
   },
@@ -145,9 +143,9 @@ var syllabusData = {
 !(function ($) {
   "use strict";
 
-  var selectedClass = 9;
+  var selectedClass = '9';
   var selectedBoard = 'icse';
-  var selectedSubject = 'phy1';
+  var selectedSubject = 'phy';
 
   var classTab = $("#classTab");
   var class_9 = $("#class_9");
@@ -210,16 +208,19 @@ var syllabusData = {
       $(tab_9_10_cbse).removeClass("hide");
       $(tab_11_12).addClass("hide");
       $(tab_9_10_wbboard).addClass("hide");
+      selectedSubject = 'sciencecbse';
     }
     else if ((selectedId === 'class_9' || selectedId === 'class_10') && (selectedBoard === 'wbb')){
       $(tab_9_10_cbse).addClass("hide");
       $(tab_11_12).addClass("hide");
       $(tab_9_10_wbboard).removeClass("hide");
+      selectedSubject = 'lsc';
     }
     else {
       $(tab_9_10_cbse).addClass("hide");
       $(tab_11_12).removeClass("hide");
       $(tab_9_10_wbboard).addClass("hide");
+      selectedSubject = 'phy';
     }
 
     $(phy).addClass("active");
@@ -228,7 +229,7 @@ var syllabusData = {
     $(bio).removeClass("active");
     $(eng).removeClass("active");
 
-    selectedSubject = 'phy';
+    //selectedSubject = 'phy';
 
     // show content markup
     showContent();
@@ -239,7 +240,7 @@ var syllabusData = {
     selectedBoard = e.target.dataset.board;
 
     var selectedId = e.target.id;
-
+    
     // change tabs
     if (selectedId === 'icse') {
       $(icse).addClass("active");
@@ -256,24 +257,25 @@ var syllabusData = {
       $(cbse).removeClass("active");
       $(wbb).addClass("active");
     }
-    console.log(selectedClass);
-    console.log(selectedId);
+
     if ((selectedClass === '9' || selectedClass === '10') && (selectedId === 'cbse')) {
       $(tab_9_10_cbse).removeClass("hide");
       $(tab_11_12).addClass("hide");
       $(tab_9_10_wbboard).addClass("hide");
+      selectedSubject = 'sciencecbse';
     }
     else if ((selectedClass === '9' || selectedClass === '10') && (selectedId === 'wbb')){
       $(tab_9_10_cbse).addClass("hide");
       $(tab_11_12).addClass("hide");
       $(tab_9_10_wbboard).removeClass("hide");
+      selectedSubject = 'lsc';
     }
     else {
       $(tab_9_10_cbse).addClass("hide");
       $(tab_11_12).removeClass("hide");
       $(tab_9_10_wbboard).addClass("hide");
+      selectedSubject = 'phy';
     }
-
     // show content markup
     showContent();
   });
@@ -281,12 +283,34 @@ var syllabusData = {
   
   $(tab_9_10_cbse).click(function (e) {
     var selectedId = e.target.id;
-    console.log (selectedId);
 
     selectedSubject = e.target.dataset.sub;
 
     document.getElementsByClassName(name);
   
+    if (selectedId === 'sciencecbse') {
+      $(sciencecbse).addClass("active");
+      $(mathscbse).removeClass("active");
+      $(engcbse).removeClass("active");
+    }
+    else if (selectedId === 'mathscbse') {
+      $(sciencecbse).removeClass("active");
+      $(mathscbse).addClass("active");
+      $(engcbse).removeClass("active");
+    }
+    else if (selectedId === 'engcbse') {
+      $(sciencecbse).removeClass("active");
+      $(mathscbse).removeClass("active");
+      $(engcbse).addClass("active");
+    }
+
+    showContent();
+  });
+
+  $(tab_11_12).click(function (e) {
+    var selectedId = e.target.id;
+
+    selectedSubject = e.target.dataset.sub;
 
     if (selectedId === 'phy') {
       $(phy).addClass("active");
@@ -327,82 +351,35 @@ var syllabusData = {
 
     showContent();
   });
-
-  $(tab_11_12).click(function (e) {
-    var selectedId = e.target.id;
-    console.log (selectedId);
-
-    selectedSubject = e.target.dataset.sub;
-
-    if (selectedId === 'phy1') {
-      $(phy1).addClass("active");
-      $(chem1).removeClass("active");
-      $(maths1).removeClass("active");
-      $(bio1).removeClass("active");
-      $(eng1).removeClass("active");
-    }
-    else if (selectedId === 'chem1') {
-      console.log ("Inside Chemistry");
-      $(phy1).removeClass("active");
-      $(chem1).addClass("active");
-      $(maths1).removeClass("active");
-      $(bio1).removeClass("active");
-      $(eng1).removeClass("active");
-    }
-    else if (selectedId === 'maths1') {
-      $(phy1).removeClass("active");
-      $(chem1).removeClass("active");
-      $(maths1).addClass("active");
-      $(bio1).removeClass("active");
-      $(eng1).removeClass("active");
-    }
-    else if (selectedId === 'bio1') {
-      $(phy1).removeClass("active");
-      $(chem1).removeClass("active");
-      $(maths1).removeClass("active");
-      $(bio1).addClass("active");
-      $(eng1).removeClass("active");
-    }
-    else if (selectedId === 'eng1') {
-      $(phy1).removeClass("active");
-      $(chem1).removeClass("active");
-      $(maths1).removeClass("active");
-      $(bio1).removeClass("active");
-      $(eng1).addClass("active");
-    }
-
-    showContent();
-  });
    
   $(tab_9_10_wbboard).click(function (e) {
     var selectedId = e.target.id;
-    console.log (selectedId);
 
     selectedSubject = e.target.dataset.sub;
-
+    
     if (selectedId === 'lsc') {
       $(lsc).addClass("active");
       $(psc).removeClass("active");
-      $(maths-wb).removeClass("active");
-      $(eng-wb).removeClass("active");
+      $(mathswb).removeClass("active");
+      $(engwb).removeClass("active");
     }
     else if (selectedId === 'psc') {
       $(lsc).removeClass("active");
       $(psc).addClass("active");
-      $(maths-wb).removeClass("active");
-      $(eng-wb).removeClass("active");
+      $(mathswb).removeClass("active");
+      $(engwb).removeClass("active");
     }
-    else if (selectedId === 'maths-wb') {
+    else if (selectedId === 'mathswb') {
       $(lsc).removeClass("active");
       $(psc).removeClass("active");
-      $(maths-wb).addClass("active");
-      $(eng-wb).removeClass("active");
+      $(mathswb).addClass("active");
+      $(engwb).removeClass("active");
     }
-    else if (selectedId === 'eng-wb') {
+    else if (selectedId === 'engwb') {
       $(lsc).removeClass("active");
       $(psc).removeClass("active");
-      $(maths-wb).removeClass("active");
-      $(eng-wb).addClass("active");
+      $(mathswb).removeClass("active");
+      $(engwb).addClass("active");
     }
 
     showContent();
@@ -412,7 +389,9 @@ var syllabusData = {
   function showContent() {
 
     $(sylImg).removeAttr('src');
-
+    console.log(selectedClass);
+    console.log(selectedBoard);
+    console.log(selectedSubject);
     try {
 
       var imgSrc = syllabusData[selectedClass][selectedBoard][selectedSubject];

@@ -19,24 +19,24 @@
       </div>
       <div class="tab small col-md-5 hide" id="tab_9_10_cbse">
         <div class="tab-title col-md-12">Choose Subject</div>
-        <button class="tablinks active" data-sub="science-cbse" id="science-cbse">Science</button>
-        <button class="tablinks" data-sub="maths-cbse" id="maths-cbse">Maths</button>
-        <button class="tablinks" data-sub="eng-cbse" id="eng-cbse">English</button>
+        <button class="tablinks active" data-sub="sciencecbse" id="sciencecbse">Science</button>
+        <button class="tablinks" data-sub="mathscbse" id="mathscbse">Maths</button>
+        <button class="tablinks" data-sub="engcbse" id="engcbse">English</button>
       </div>
       <div class="tab small col-md-5 hide" id="tab_9_10_wbboard">
         <div class="tab-title col-md-12">Choose Subject</div>
         <button class="tablinks active" data-sub="lsc" id="lsc">Life Science</button>
         <button class="tablinks" data-sub="psc" id="psc">Physical Science</button>
-        <button class="tablinks" data-sub="maths-wb" id="maths-wb">Maths</button>
-        <button class="tablinks" data-sub="eng-wb" id="eng-wb">English</button>
+        <button class="tablinks" data-sub="mathswb" id="mathswb">Maths</button>
+        <button class="tablinks" data-sub="engwb" id="engwb">English</button>
       </div>
       <div class="tab small col-md-5" id="tab_11_12">
         <div class="tab-title col-md-12">Choose Subject</div>
-        <button class="tablinks active" data-sub="phy1" id="phy1">Physics</button>
-        <button class="tablinks" data-sub="chem1" id="chem1">Chemistry</button>
-        <button class="tablinks" data-sub="maths1" id="maths1">Maths</button>
-        <button class="tablinks" data-sub="bio1" id="bio1">Biology</button>
-        <button class="tablinks" data-sub="eng1" id="eng1">English</button>
+        <button class="tablinks active" data-sub="phy" id="phy">Physics</button>
+        <button class="tablinks" data-sub="chem" id="chem">Chemistry</button>
+        <button class="tablinks" data-sub="maths" id="maths">Maths</button>
+        <button class="tablinks" data-sub="bio" id="bio">Biology</button>
+        <button class="tablinks" data-sub="eng" id="eng">English</button>
       </div>
     </div>
     <section class="content-wrapper col-md-12" id="content_wrapper">
