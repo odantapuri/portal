@@ -174,20 +174,20 @@
   });
 
 
-  var monthlyTab = $("#monthlyTab");
-  var quarterlyTab = $("#quarterlyTab");
-  var yearlyTab = $("#yearlyTab");
+  var monthlyTab = $("#icseBoard");
+  var quarterlyTab = $("#cbseBoard");
+  var yearlyTab = $("#wbBoard");
 
   $(monthlyTab).on('click', pricingPlans);
   $(quarterlyTab).on('click', pricingPlans);
   $(yearlyTab).on('click', pricingPlans);
 
   function pricingPlans(e) {
-    var monthlyPlan = $("#monthlyPlan");
-    var quarterlyPlan = $("#quarterlyPlan");
-    var yearlyPlan = $("#yearlyPlan");
+    var monthlyPlan = $("#icsePlan");
+    var quarterlyPlan = $("#cbsePlan");
+    var yearlyPlan = $("#wbbPlan");
 
-    if (e.target.id === "monthlyTab") { //activate monthly tab and section
+    if (e.target.id === "icseBoard") { //activate monthly tab and section
       $(monthlyTab).addClass("active");
       $(monthlyPlan).addClass("active");
       $(quarterlyTab).removeClass("active");
@@ -195,7 +195,7 @@
       $(yearlyTab).removeClass("active");
       $(yearlyPlan).removeClass("active");
     }
-    else if (e.target.id === "quarterlyTab") { //activate quarterly tab and section
+    else if (e.target.id === "cbseBoard") { //activate quarterly tab and section
       $(monthlyTab).removeClass("active");
       $(monthlyPlan).removeClass("active");
       $(quarterlyTab).addClass("active");

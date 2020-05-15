@@ -41,6 +41,56 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
 }
 
+.tabs-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.tab {
+  padding: 10px 0;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08)
+}
+
+.tab-title {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.tab button.tablinks {
+  background-color: transparent;
+  color: #f03c02;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 20px;
+  border-radius: 6px;
+  /* width: 100px; */
+  text-align: center;
+}
+
+.tab.large button.tablinks {
+  font-size: 30px;
+}
+
+.tab.small button.tablinks {
+  font-size: 14px;
+}
+
+.tab button.tablinks:hover {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.tab button.tablinks.active {
+  background-color: #fd5c28;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
 /*--------------------------------------------------------------
 # common styles end
 --------------------------------------------------------------*/
@@ -144,11 +194,10 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+  height: 115px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 10px 0;
   background: #fff;
 }
 
@@ -1167,6 +1216,7 @@ section {
   border-radius: 8px;
   position: relative;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  height: 360px;
 }
 
 .box .icon {
@@ -1260,31 +1310,6 @@ section {
   background: #fff;
 }
 
-.pricing-quotes .tab {
-  padding-top: 20px;
-}
-
-.pricing-quotes .tab button {
-  background-color: transparent;
-  color: #f03c02;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-  border-radius: 6px;
-}
-
-.pricing-quotes .tab button:hover {
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
-}
-
-.pricing-quotes .tab button.active {
-  background-color: #fd5c28;
-  color: #fff;
-}
-
 .pricing-quotes .tab-wrapper {
   display: none;
 }
@@ -1297,6 +1322,74 @@ section {
   padding: 20px 0;
   font-size: 20px;
   text-align: center;
+}
+
+/*------------------------------------------------------------
+# Courses Section title
+------------------------------------------------------------*/
+.course-title {
+  background: #fff;
+}
+
+.course-title .tab {
+  width: 60%;
+  box-shadow: inset 0px -11px 8px -10px #ccc;
+  display: inline-flex;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.course-title .tab button {
+  background-color: #f5f5f5;
+    box-shadow: inset 0px -11px 8px -10px #ccc;
+  background-color: #ffffff;
+  color: #f03c02;
+   
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.15);
+    
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.course-title .tab button:hover {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.course-title .tab button.active {
+  background-color: #fd5c28;
+  color: #fff;
+  font-weight: bold;
+}
+
+.course-title .tab-wrapper {
+  display: none;
+}
+
+.course-title .tab-wrapper.active {
+  display: flex;
+}
+
+.course-title p {
+  padding: 20px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.course-board-box {
+  padding: 5px;
+  background: #fff;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  font-size: 12;
 }
 
 /*--------------------------------------------------------------
@@ -2279,4 +2372,50 @@ section {
   background: #fd5c28;
   color: #fff;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Courses
+--------------------------------------------------------------*/
+
+.course-menu {
+  background: none;
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  /* z-index: -1; */
+}
+.course-content {
+  padding-left: 20%;
+}
+
+.content-wrapper {
+  padding: 60px 200px;
+}
+
+.syl-img-wrapper {
+  padding: 40px;
+  background: #ddd;
+}
+
+#courses section {
+  padding: 100px 0 0;
+}
+
+/*--------------------------------------------------------------
+# Home banner
+--------------------------------------------------------------*/
+
+.home-banner {
+  display: flex;
+  justify-content: center;;
+  background-image: linear-gradient(rgba(255,98,0,1),rgba(255,128,0,0.9));
+  color: #fff;
+  padding: 100px 0;
+}
+
+.banner-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

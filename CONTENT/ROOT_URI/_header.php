@@ -37,22 +37,7 @@
 
 <body>
 
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container d-flex">
-      <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i><a href="mailto:contact@example.com">hr@odantapuri.net.in</a>
-        <i class="icofont-whatsapp" style="border-left: 1px solid;padding-left: 10px;margin-left: 10px;"></i> +91 9593930068
-      </div>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="skype"><i class="icofont-skype"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section>
+  
   <!---=============Modal ========= -->
 
   <div class="modal fade" id="joinFreeClassesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -107,6 +92,22 @@
 
   <!-- ======= Header ======= -->
   <header id="header">
+    <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="icofont-envelope"></i><a href="mailto:contact@example.com">hr@odantapuri.net.in</a>
+        <i class="icofont-whatsapp" style="border-left: 1px solid;padding-left: 10px;margin-left: 10px;"></i> 033 4180 0555
+      </div>
+      <div class="social-links">
+       <!-- <a href="#" class="twitter"><i class="icofont-twitter"></i></a> -->
+        <a href="https://www.facebook.com/Odantapuri-Classes-114410076918153/" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://instagram.com/odantapuriclasses?igshid=15zvpf6gh8ojt" class="instagram"><i class="icofont-instagram"></i></a>
+        <!--<a href="#" class="skype"><i class="icofont-skype"></i></a>
+        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a> -->
+      </div>
+    </div>
+  </section>
     <div class="container d-flex">
 
       <div class="mr-auto">
@@ -118,7 +119,8 @@
         <ul>
           <li><a href="/">HOME</a></li>
           <li><a href="pricing">PRICING</a></li>
-          <li><a href="teacher">TEACHER</a></li>
+          <li><a href="courses">COURSES</a></li>
+          <!--<li><a href="teacher">TEACHER</a></li> -->
           <li><a href="onlineclasses">ONLINE CLASS</a></li>
           <li><a href="#joinFreeClassesModal" data-toggle="modal" class="btn" style="color: #fff; background-color: #fd5c28; padding-left: 20px; padding-right: 20px;">START CLASSES FOR FREE</a></li>
         </ul>
