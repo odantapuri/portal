@@ -1,4 +1,4 @@
-<section id="testimonials" class="testimonials">
+<!--<section id="testimonials" class="testimonials">
   <div class="container">
     <div class="section-title" data-aos="fade-up">
       <h2><strong>Teaching Staff and Coordinators</strong></h2>
@@ -85,4 +85,4 @@
     </div>
 
   </div>
-</section>
+</section> -->
