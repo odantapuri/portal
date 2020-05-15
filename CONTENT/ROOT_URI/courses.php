@@ -40,7 +40,7 @@
       </div>
     </div>
     <section class="content-wrapper col-md-12" id="content_wrapper">
-      <h2 class="subject-title col-md-12">Syllabus covered</h2>
+      <!--<h2 class="subject-title col-md-12">Syllabus covered</h2> -->
       <div class="syl-img-wrapper" id="sylImgWrapper">
         <img src="" alt="syllabus" id="sylImg" class="img-fluid">
       </div>
