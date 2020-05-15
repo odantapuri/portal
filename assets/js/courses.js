@@ -2,31 +2,31 @@ var syllabusData = {
   "9": {
     "icse": {
       "phy":
-        "https://www.nasa.gov/sites/default/files/thumbnails/image/color-swath-use-12-10-15-vertical.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Physics-9th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "chem":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Chemistry-9th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Maths-9th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "bio":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Biology-9th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "eng":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-English-9th.jpg" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     },
     "cbse": {
       "sciencecbse":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Science-9th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "mathscbse":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Maths-9th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "engcbse":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE 
+        "/IMAGES/CBSE-Class9-English.jpg" // SYLLABUS IMAGE SRC TO BE PASTED HERE 
     },
     "wbb": {
       "lsc":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-LSc-9th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "psc":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-PSc-9th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "mathswb":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Maths-9th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "engwb":
         "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     }
@@ -34,29 +34,31 @@ var syllabusData = {
   "10": {
     "icse": {
       "phy":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Physics-10th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "chem":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Chemistry-10th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Maths-10th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+      "bio":
+      "/IMAGES/ICSE-Biology-10th.jpg",  // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "eng":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-English-10th.jpg" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     },
     "cbse": {
       "sciencecbse":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Science-10th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "mathscbse":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Maths-10th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "engcbse":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE 
+        "/IMAGES/CBSE-English-10th.jpg" // SYLLABUS IMAGE SRC TO BE PASTED HERE 
     },
     "wbb": {
       "lsc":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-LSc-10th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "psc":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-PSc-10th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "mathswb":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Maths-10th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "engwb":
         "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     }
@@ -64,37 +66,37 @@ var syllabusData = {
   "11": {
     "icse": {
       "phy":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Physics-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "chem":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Chemistry-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Maths-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "bio":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Biology-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "eng":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-English-11th.jpg" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     },
     "cbse": {
       "phy":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Physics-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "chem":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Chemistry-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Maths-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "bio":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Biology-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "eng":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-English-11th.jpg" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     },
     "wbb": {
       "phy":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Physics-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "chem":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Chemistry-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Maths-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "bio":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Biology-11th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "eng":
         "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     }
@@ -102,37 +104,37 @@ var syllabusData = {
   "12": {
     "icse": {
       "phy":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Physics-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "chem":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Chemistry-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Maths-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "bio":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-Biology-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "eng":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/ICSE-English-12th.jpg" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     },
     "cbse": {
       "phy":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Physics-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "chem":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Chemistry-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Maths-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "bio":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-Biology-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "eng":
-        "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/CBSE-English-12th.jpg" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     },
     "wbb": {
       "phy":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Physics-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "chem":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Chemistry-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "maths":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Maths-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "bio":
-        "", // SYLLABUS IMAGE SRC TO BE PASTED HERE
+        "/IMAGES/WB-Biology-12th.jpg", // SYLLABUS IMAGE SRC TO BE PASTED HERE
       "eng":
         "" // SYLLABUS IMAGE SRC TO BE PASTED HERE
     }
