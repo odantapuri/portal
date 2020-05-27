@@ -122,7 +122,7 @@
           <li><a href="courses">COURSES</a></li>
           <!--<li><a href="teacher">TEACHER</a></li> -->
           <li><a href="onlineclasses">ONLINE CLASS</a></li>
-          <li><a href="#joinFreeClassesModal" data-toggle="modal" class="btn" style="color: #fff; background-color: #fd5c28; padding-left: 20px; padding-right: 20px;">START CLASSES FOR FREE</a></li>
+          <li><a href="#joinFreeClassesModal" data-toggle="modal" class="btn" style="color: #fff; background-color: #fd5c28; padding-left: 20px; padding-right: 20px;">Register your FREE TRIAL Class</a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>

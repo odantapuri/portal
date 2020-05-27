@@ -22,6 +22,6 @@
     </head>
     <body>
         <div id="content">
-            <iframe width="100%" height="100%" frameborder="0" src="https://odantapurilive.edsoft.us/" />
+            <iframe width="100%" height="100%" frameborder="0" src="https://online.odantapuri.in/" />
         </div>
     </body>

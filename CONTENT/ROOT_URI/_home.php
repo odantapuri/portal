@@ -32,7 +32,7 @@
       <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
         <div class="container">
           <div class="carousel-content animated fadeInUp">
-            <h2>Best Coaching Classes</h2>
+            <h2>Peer to Peer Learning</h2>
             <p>We believe its not only quality education, but factors such as individual attention, student collaboration, and intricate assessments are vital ingredients for the development of a student. We at Odantapuri have collaborated with various technology partners to replicate such an environment.</p>
             <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
           </div>
