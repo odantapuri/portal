@@ -17,13 +17,13 @@
         <button class="tablinks" data-board="cbse" id="cbse">CBSE</button>
         <button class="tablinks" data-board="wbb" id="wbb">WB Board</button>
       </div>
-      <div class="tab small col-md-5 d-none" id="tab_9_10_cbse">
+      <div class="tab small col-md-5 d-none d-sm-block d-md-none d-lg-none d-xl-none" id="tab_9_10_cbse">
         <div class="tab-title col-md-12">Choose Subject</div>
         <button class="tablinks active" data-sub="sciencecbse" id="sciencecbse">Science</button>
         <button class="tablinks" data-sub="mathscbse" id="mathscbse">Maths</button>
         <button class="tablinks" data-sub="engcbse" id="engcbse">English</button>
       </div>
-      <div class="tab small col-md-5 d-none" id="tab_9_10_wbboard">
+      <div class="tab small col-md-5 d-none d-sm-block d-md-none d-lg-none d-xl-none" id="tab_9_10_wbboard">
         <div class="tab-title col-md-12">Choose Subject</div>
         <button class="tablinks active" data-sub="lsc" id="lsc">Life Science</button>
         <button class="tablinks" data-sub="psc" id="psc">Physical Science</button>
