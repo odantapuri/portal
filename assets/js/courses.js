@@ -238,7 +238,7 @@ var syllabusData = {
   });
 
   $(boardTab).click(function (e) {
-
+    console.log("Inside boardtab");
     selectedBoard = e.target.dataset.board;
 
     var selectedId = e.target.id;
@@ -265,18 +265,31 @@ var syllabusData = {
       $(tab_11_12).addClass("hide");
       $(tab_9_10_wbboard).addClass("hide");
       selectedSubject = 'sciencecbse';
+      $(sciencecbse).addClass("active");
+      $(mathscbse).removeClass("active");
+      $(engcbse).removeClass("active");
     }
     else if ((selectedClass === '9' || selectedClass === '10') && (selectedId === 'wbb')){
       $(tab_9_10_cbse).addClass("hide");
       $(tab_11_12).addClass("hide");
       $(tab_9_10_wbboard).removeClass("hide");
       selectedSubject = 'lsc';
+      $(lsc).addClass("active");
+      $(psc).removeClass("active");
+      $(mathswb).removeClass("active");
+      $(engwb).removeClass("active");
     }
     else {
       $(tab_9_10_cbse).addClass("hide");
       $(tab_11_12).removeClass("hide");
       $(tab_9_10_wbboard).addClass("hide");
       selectedSubject = 'phy';
+      console.log("Executed");
+      $(phy).addClass("active");
+      $(chem).removeClass("active");
+      $(maths).removeClass("active");
+      $(bio).removeClass("active");
+      $(eng).removeClass("active");
     }
     // show content markup
     showContent();
